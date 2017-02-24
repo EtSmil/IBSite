@@ -8,7 +8,6 @@
 
 <div class="footer">
     
-    <a class="copyR" href="https://www.linkedin.com/in/yousef-mohsen-616ab5139?trk=nav_responsive_tab_profile_pic">@Yousef Mohsen</a>
 <div class="floating-box2">
 
         <h1> Følg os på </h1>
@@ -36,8 +35,10 @@
         <a> Bankoverføresel</a>
     </div>
 
+    <div class="copyR">
+<a  href="https://www.linkedin.com/in/yousef-mohsen-616ab5139?trk=nav_responsive_tab_profile_pic">@Yousef Mohsen</a>
 
-
+</div>
 </div>
 
 
