@@ -12,27 +12,11 @@ and open the template in the editor.
 
 
 
-.y-footer{
-    
- width: 100% ;
- height: 290px;
- position: relative;
-
-
-
-    bottom: 1px;
-    
-    padding: 2px;
-    
-
- 
-}
 
 
 
 
 .floating-box2-center{
-    text-align: center;
    width: 25%;
     min-width: 200px;
     height: 110px;
@@ -43,7 +27,6 @@ and open the template in the editor.
     border-right:  3px solid white; 
 }
 .floating-box2{
-    text-align: center;
    width: 25%;
     min-width: 200px;
     height: 110px;
@@ -136,14 +119,14 @@ ul.topnav li.myIcon {float: left;  }
 
 ul.topnav li a {
    
- font-family: "Paytone One";
+    font-family: Montserrat, sans-serif;
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 16px; 
   text-decoration: none;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 2em;
 }
 
 ul.topnav li a:hover { border-bottom:  1px solid #8d1010; 
@@ -176,8 +159,20 @@ ul.topnav li.icon {display: none;}
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
+    font-size: 2em;
+    font-family: Montserrat, sans-serif;
   }
   
+  
+  li a:hover:not(.active) {
+    border:  3px solid yellowgreen; 
+
+}
+
+.active {
+        border:  3px solid yellowgreen; 
+
+}
 
   .videoSection{
            visibility: hidden;
@@ -202,11 +197,19 @@ ul.topnav li.icon {display: none;}
 }
 
 
-.ibDK-text{
+.ibDK p, h1{
 font-family: Montserrat, sans-serif;
  padding: 1%;
-    text-align: left;
-    color:red;
+text-align: left;
+ color:#666666;
+font-size: 2em;
+padding: 0px 1%;
+
+}
+
+.ibDK img{
+    float: left;
+    margin: 1%;
     
 }
 .bg2{
@@ -218,15 +221,16 @@ font-family: Montserrat, sans-serif;
     background-color:#666666;
 
 } 
-.text-video{
+.text-video h1, h2, p{
     padding: 1%;
     text-align: left;
 font-family: Montserrat, sans-serif;
-color: white;
+color: #cccccc;
+font-size: 2em;
+padding: 0px 1%;
 }
 
-.text-left{
-   
+.text-center{
     
 }
 

@@ -12,19 +12,15 @@
 <%@include file="tails/Header.jsp" %>
 
     
-<div id="hvem" class="section bg1 text-center">
+<div id="hvem" class="section bg1 text-video ">
         <h1 >Hvem er IRAQ Builders?</h1>
 
-        <video class="videoSection" width="700"  controls>
+        <video class="videoSection" width="700" muted autoplay >
             <source src="vid/IBCar.mp4" type="video/mp4">
             Your browser does not support the <code>video</code> tag.
         </video>
     
-     
   
-    
-    <div class="text-video">
-    <h2>Hvem er vi?</h2>
     <p>
 IRAQ Builders består af en gruppe unge initiativtagere i Irak, der sammen med deres ligesindede i andre lande har skabt en international organisation, der sigter efter et bedre Irak med en lysere fremtid. 
 
@@ -36,7 +32,7 @@ IRAQ Builders yder hjælp og støtte til alle irakere, uden hensyn til deres rel
         
     </p>
     
-</div>
+
     </div>
 
 
@@ -44,8 +40,10 @@ IRAQ Builders yder hjælp og støtte til alle irakere, uden hensyn til deres rel
 
 
 
-<div id="hvem" class="section bg2 ibDK-text">
+<div id="ibdk" class="ibDK section bg2">
+   
     
+    <img src="img/ibdk.jpg" alt="IRAQ Builders - DK"/>
     
     
     <h1> IRAQ Builders i Danmark </h1>

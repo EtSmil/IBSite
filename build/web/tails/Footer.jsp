@@ -6,7 +6,7 @@
 
     
 <footer> 
-<div class="footer">
+<div class="footer text-center">
     
 <div class="floating-box2">
 
