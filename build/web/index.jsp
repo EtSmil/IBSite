@@ -11,7 +11,17 @@
 <!DOCTYPE html>
 <%@include file="tails/Header.jsp" %>
 
-    
+
+
+<div style="width:100%">
+  <img class="mySlides" src="img/cover.png" style="width:100%">
+  
+  <img class="mySlides" src="img/cover.png" style="width:100%; border: 3px solid green">
+ 
+  
+</div>
+
+
 <div id="hvem" class="section bg1 text-video ">
         <h1 >Hvem er IRAQ Builders?</h1>
 
@@ -58,6 +68,23 @@ IRAQ Builders Danmarks døre er åbne for alle, og vi byder gerne nye frivillige
     
 </div>
 
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 
 
 

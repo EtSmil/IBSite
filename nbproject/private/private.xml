@@ -2,17 +2,16 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="nonSchool">
+            <file>file:/Users/Yousinho/Documents/Netbeans%20projects/IBSite/web/index.jsp</file>
+            <file>file:/Users/Yousinho/Documents/Netbeans%20projects/IBSite/web/css/newcss.css</file>
+        </group>
         <group>
             <file>file:/Users/Alkhozai/NetBeansProjects/IRAQBuildersWeb/web/css/newcss.css</file>
             <file>file:/Users/Alkhozai/NetBeansProjects/IRAQBuildersWeb/web/tails/Header.jsp</file>
             <file>file:/Users/Alkhozai/NetBeansProjects/IRAQBuildersWeb/web/tails/Footer.jsp</file>
             <file>file:/Users/Alkhozai/NetBeansProjects/IRAQBuildersWeb/web/scripts/navbar.js</file>
             <file>file:/Users/Alkhozai/NetBeansProjects/IRAQBuildersWeb/web/index.jsp</file>
-            <file>file:/Users/Alkhozai/NetBeansProjects/IRAQBuildersWeb/web/pages/index.jsp</file>
-        </group>
-        <group name="nonSchool">
-            <file>file:/Users/Yousinho/Documents/Netbeans%20projects/IBSite/web/index.jsp</file>
-            <file>file:/Users/Yousinho/Documents/Netbeans%20projects/IBSite/web/css/newcss.css</file>
         </group>
     </open-files>
 </project-private>

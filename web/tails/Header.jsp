@@ -39,6 +39,8 @@
   <li><a href="#beVol">Bliv frivillig</a></li>
   
     <li><a href="#goals">Vores mål</a></li>
+     <li><a href="#ibdk">DK</a></li>
+    
   <li><a class="active" href="#hvem">Hvem?</a></li>
   <li class="myIcon"><a  href="#top">IRAQ Builders</a></li>    
   <li class="icon">
