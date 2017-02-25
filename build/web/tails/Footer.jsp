@@ -5,7 +5,7 @@
 --%>
 
     
-
+<footer> 
 <div class="footer">
     
 <div class="floating-box2">
@@ -36,11 +36,11 @@
     </div>
 
     <div class="copyR">
-<a  href="https://www.linkedin.com/in/yousef-mohsen-616ab5139?trk=nav_responsive_tab_profile_pic">@Yousef Mohsen</a>
+<a  href="https://www.linkedin.com/in/yousef-mohsen-616ab5139?trk=nav_responsive_tab_profile_pic" target="_blank">@Yousef Mohsen</a>
 
 </div>
 </div>
 
-
+</footer>
     </body>
 </html>

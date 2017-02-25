@@ -8,12 +8,6 @@ and open the template in the editor.
     Author     : Alkhozai
 */
 
-.sBody{
-    
-    padding-left: 5%;
-    padding-right: 5%;
-    
-}
  
 
 
@@ -23,7 +17,7 @@ and open the template in the editor.
  width: 100% ;
  height: 290px;
  position: relative;
- background-color: #29292c;
+
 
 
     bottom: 1px;
@@ -60,7 +54,7 @@ and open the template in the editor.
 }
 
 body{
-    background-color: #cccccc
+    background-color: #cccccc;
     
 }
 .floating-box2 a,p,h1{
@@ -68,14 +62,11 @@ body{
     color: white;
 }
 
-.footerBottom{
-    
-    
-}
+
 
 .copyR{
    
-    background-color:#333333;
+       background-color: #cccccc;
     width: 100%;
     height: 30px;
          color: white;
@@ -84,54 +75,145 @@ body{
   
 }
 .copyR a{
-     color: white;
+     color:#29292c;
   text-align: left;
 }
 
 
 .footer {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 10px 0 ;
-  background-color: #666666;
+
+   background-color: #29292c;
   text-align: center;
+  font-family: Montserrat, sans-serif;
 }
 
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-
-   @media (max-width: 600px) {
+.header-y{
+      position: absolute;
+  right: 0;
+  top:  0;
+   
+  left: 0;
+  
+  background-color: #666666;
  
+  
+    
+}
+
+.header-y img{
+       float: left;
+       height: 150px;
+       width: 480px;
+
+       margin: 0px 40% ;
        
-    }
+
+}
+
+
+/*        - ---------------   */
+
+
+body {margin:0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+   background-color: #29292c;
+
+}
+
+ul.topnav li {float: right;  }
+ul.topnav li.myIcon {float: left;  }
+
+ul.topnav li a {
+   
+ font-family: "Paytone One";
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover { border-bottom:  1px solid white; 
+
+}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:nth-child(6)) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+  
+
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  
+
+  .videoSection{
+           visibility: hidden;
+           
+
+  }
+}
+.section{
+  
+    display: inline-block;
+        border: 1px solid black;
+        padding: 2%;
+    
+}
+.videoSection{
+    display: inline-block;
+   float: right;
+
+   border: 1px solid white;
+
+    
+}
+.bg1{
+    background-color:#cccccc;
+
+} 
+.text-video{
+    padding: 1%;
+    text-align: left;
+}
+
+.text-left{
+   
+    
+}
+
+
   /*
   .floating-box1{
       width: 25%;
@@ -143,4 +225,60 @@ margin-bottom: 1%;
     float: left;
 
 }
+  
+  
+  /////////////////////////////////
+  ul {
+      position: absolute;
+
+    left: 0;
+         right: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:scroll;
+    background-color:#666666;
+    padding-right: 5%;
+}
+
+li {
+    float: right;
+    margin-top: 10px;
+     padding-right: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    border-bottom:  3px solid white; 
+
+}
+
+.active {
+        border-bottom:  3px solid white; 
+
+}
+
+    .navbar li a {
+        color: white;
+        opacity: 1;
+    }
+   
+    .navbar {
+        font-family: Montserrat, sans-serif;
+        margin-bottom: 0;
+        background-color: #2d2d30;
+        border: 0;
+        font-size: 11px !important;
+        letter-spacing: 4px;
+        opacity: 0.9;
+       
+    }
+  
   */
