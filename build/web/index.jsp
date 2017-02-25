@@ -40,4 +40,27 @@ IRAQ Builders yder hjælp og støtte til alle irakere, uden hensyn til deres rel
     </div>
 
 
+
+
+
+
+<div id="hvem" class="section bg2 ibDK-text">
+    
+    
+    
+    <h1> IRAQ Builders i Danmark </h1>
+    
+    <p> 
+
+IRAQ Builders Danmark består af en lille gruppe unge frivillige, der med inspiration fra hovedorganisationen i Irak, forsøger at bidrage med økonomiske midler, samling af tøj, formidling af viden etc. Dette forsøges opnået gennem samarbejde med andre frivillige og donorer. Vores ypperste opgave er at sikre at de ressourcer der gives til de nødslidte, bliver brugt så optimalt som muligt.
+Gruppen består hovedsageligt af akademikere med irakisk baggrund, men alle er velkomne til at slutte sig til gruppen. 
+Vores vigtigste princip er at alle de projekter vi deltager i skal kunne gennemføres uden administrationsomkostninger. Og vi garanterer alle donorer, at alle deres bidrag altid går ubeskåret til projekterne og intet går til administrationen.
+IRAQ Builders Danmarks døre er åbne for alle, og vi byder gerne nye frivillige ind i gruppen. 
+</p>
+    
+</div>
+
+
+
+
 <%@include file="tails/Footer.jsp" %>
