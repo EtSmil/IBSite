@@ -101,7 +101,7 @@ h1{
        height: 150px;
        width: 480px;
 
-       margin: 0px 40% ;
+     
        
 
 }
@@ -166,7 +166,7 @@ ul.topnav li.icon {display: none;}
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
-    font-size: 2em;
+    
     font-family: Montserrat, sans-serif;
   }
   
@@ -194,12 +194,14 @@ ul.topnav li.icon {display: none;}
     
 }
 .section{
+
   
     display: inline-block;
         border-bottom: 1px solid #8d1010;
-        padding: 2%;
+        padding: 40px;
     
 }
+
 .videoSection{
     display: inline-block;
    float: right;
@@ -219,7 +221,7 @@ font-family: Montserrat, sans-serif;
  padding: 1%;
 text-align: left;
  color:#29292c;
-font-size: 1em;
+
 padding: 0px 1%;
   
 
@@ -247,15 +249,44 @@ width: auto;
     text-align: left;
 font-family: Montserrat, sans-serif;
 color: white;
-font-size: 2em;
+
 padding: 0px 1%;
 }
 
-.text-center{
+
+.goals h2,h1,h4,p,a{
+    
+ text-align: left;
+font-family: Montserrat, sans-serif;
+color: white;
+
+
     
 }
+.goals h3{
+   border-bottom:  2px solid green; 
+    margin: 1px;
+}
+.goals{
+margin:  auto;
+display: inline-block;
+ border-bottom: 1px solid #8d1010;
+ padding: 30px;
 
-.mySlides {display:none;}
+
+}
+.goal{
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid white;
+    margin: 5px;
+    float: left;
+    display: inline-block;
+}
+
+.mySlides {display:none;
+}
 
 
   /*
