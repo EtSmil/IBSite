@@ -244,6 +244,9 @@ width: auto;
     background-color:#29292c;
 
 } 
+.bg3{
+      background-color:rgb(236,236,230);
+}
 .text-video h1, h2, p{
     padding: 1%;
     text-align: left;
