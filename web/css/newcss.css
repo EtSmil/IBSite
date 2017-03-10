@@ -177,7 +177,7 @@ ul.topnav li.icon {display: none;}
 }
 
 .active {
-        border:  3px solid yellowgreen; 
+        border:  3px solid ydellowgreen; 
 
 }
 
@@ -206,7 +206,7 @@ ul.topnav li.icon {display: none;}
     display: inline-block;
    float: right;
 
-   border: 1px solid white;
+
 
     
 }
@@ -245,7 +245,7 @@ width: auto;
 
 } 
 .bg3{
-      background-color:rgb(236,236,230);
+      background-color:rgb(236,236,212);
 }
 .text-video h1, h2, p{
     padding: 1%;
