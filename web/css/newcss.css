@@ -9,7 +9,14 @@ and open the template in the editor.
 */
 
  
+body {
+    background-image: url(img/bg-alter.png);
+    color: #525252;
+    font-family: "Roboto", sans-serif;
 
+    font-weight: 300;
+    line-height: 2;
+}
 
 
 
@@ -40,7 +47,7 @@ body{
     background-color: #cccccc;
     
 }
-.floating-box2 a,p,h1{
+.floating-box2 {
     
     color: white;
 }
@@ -62,10 +69,11 @@ body{
   text-align: left;
 }
 h1{
-    border-left:   2px solid red; 
+    text-align: center; 
     
 }
-
+.whiteFont{
+    color: white;}
 .footer {
   position: relative;
   right: 0;
@@ -78,11 +86,16 @@ h1{
   text-align: center;
   font-family: Montserrat, sans-serif;
 }
-.footer h1,h2,h3,a,p {
+.footer  {
     color: white;
     
 }
-
+.center{
+      margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
 .header-y{
       position: absolute;
   right: 0;
@@ -196,15 +209,20 @@ ul.topnav li.icon {display: none;}
 .section{
 
   
-    display: inline-block;
+     display: inline-block;
         border-bottom: 1px solid #8d1010;
         padding: 40px;
-    
+  
 }
 
 .videoSection{
-    display: inline-block;
-   float: right;
+    
+  border-bottom: 3px solid black;
+ 
+    width: 70%;
+
+  display: block;
+    margin: auto;
 
 
 
@@ -216,7 +234,7 @@ ul.topnav li.icon {display: none;}
     
     
 }
-.ibDK p, h1{
+.ibDK{
 font-family: Montserrat, sans-serif;
  padding: 1%;
 text-align: left;
@@ -235,6 +253,82 @@ width: auto;
     margin: 1%;
     
 }
+.whoSection img{
+     border-bottom: 2px solid white;
+     border-top: 2px solid white ;
+     border-radius: 50%;
+width: 100%;
+
+}
+
+.col1 {
+    text-align: center;
+  
+
+    float: left;
+    padding: 20px;
+    width:20%;
+display: inline-block;
+  margin-left: 13%;
+  margin-top: 40px;
+  
+  border-bottom: 2px solid black;
+  
+    
+
+}
+.col2 {
+   
+     width:20%;
+    padding: 20px;
+    float: left;
+    margin-left: 3%;
+display: inline-block;
+    border-bottom: 2px solid #991515;
+border-top: 2px solid #991515;
+ margin-bottom: 6px;
+
+color: white;
+ background-color: #525252;
+}
+
+.col3 {
+   
+     width:20%;
+    padding: 20px;
+    float: left;
+    margin-left: 3%;
+    display: inline-block;
+    margin-top: 40px;
+  
+   
+  border-bottom:  2px solid #991515;
+    
+
+}
+.col1 img{
+     border-bottom: 2px solid white;
+     border-top: 2px solid white ;
+     border-radius: 50%;
+width: 100%;
+}
+
+.col2 img{
+     border-bottom: 2px solid white;
+     border-top: 2px solid white ;
+          border-left:  2px solid white ;
+     border-radius: 50%;
+width: 100%;
+}
+.col3 img{
+     border-bottom: 2px solid white;
+     border-top: 2px solid white ;
+     border-radius: 50%;
+width: 100%;
+}
+
+
+
 .bg2{
     background-color:white;
 
@@ -245,19 +339,12 @@ width: auto;
 
 } 
 .bg3{
-      background-color:rgb(236,236,212);
-}
-.text-video h1, h2, p{
-    padding: 1%;
-    text-align: left;
-font-family: Montserrat, sans-serif;
-color: white;
-
-padding: 0px 1%;
+        
+    background-color: #dedfd4;
 }
 
 
-.goals h2,h1,h4,p,a{
+.goals{
     
  text-align: left;
 font-family: Montserrat, sans-serif;
@@ -266,7 +353,16 @@ color: white;
 
     
 }
-.goals h3{
+.text-video{
+    padding: 1%;
+    
+
+color: black;
+
+padding: 0px 1%;
+}
+
+.goals {
    border-bottom:  2px solid green; 
     margin: 1px;
 }
@@ -290,6 +386,58 @@ display: inline-block;
 
 .mySlides {display:none;
 }
+
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+
+
+}
+.goalsColm{
+         width:300px;
+    padding: 20px;
+    float: left;
+   margin: auto;
+    display: inline-block;
+
+    color: white;
+  
+   
+  
+    
+}
+.goalsColmContainer{
+ 
+    margin: auto;
+    width: 80%;
+   
+    padding: 10px;
+    
+}
+.goalsColm img{
+     border-bottom: 2px solid white;
+     border-top: 2px solid white ;
+     border-radius: 50%;
+width: 100%;
+    
+}
+
+
+
+
 
 
   /*
