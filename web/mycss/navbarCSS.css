@@ -1,0 +1,246 @@
+    /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-03-2017, 19:26:56
+    Author     : Alkhozai
+*/
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#dfdfdf;
+  
+
+}
+
+
+.navCol{
+    width: 100%;
+    height: 10px;
+    background-color:#8d1010;
+    
+}
+
+
+ul.topnav li {float: right;  }
+ul.topnav li.myIcon {float: left;  
+
+}
+
+ul.topnav li a {
+   
+    font-family: Montserrat, sans-serif;
+  display: inline-block;
+  color: #525252;
+  text-align: center;
+  padding: 14px 16px; 
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 1.2em;
+  margin: 0px;
+
+}
+ul.topnav li a.iconA {
+    padding: 0px;
+ 
+}
+
+
+
+
+
+ul.topnav li a:hover { 
+    background-color:#29292c;
+     color: white;
+     
+
+}
+
+
+
+ul.topnav li.icon {display: none;}
+
+
+
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:nth-child(6)) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+  
+
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+    
+    font-family: Montserrat, sans-serif;
+  }
+  
+  
+  li a:hover:not(.active) {
+    border:  3px solid yellowgreen; 
+
+}
+
+.active {
+        border:  3px solid ydellowgreen; 
+
+}
+}
+
+
+.iconA { /*ul.topnav li.*/
+    top: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    float: left;
+   
+
+    
+    background-color: white;
+    
+
+ 
+}
+
+.iconA img{/*ul.topnav li */
+
+
+    height: 100px;
+    width: 100px;
+
+     
+       
+}
+
+
+
+/*//////////////////*/
+
+
+.slider {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+.slider.fullscreen {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.slider.fullscreen ul.slides {
+  height: 100%;
+}
+
+.slider.fullscreen ul.indicators {
+  z-index: 2;
+  bottom: 30px;
+}
+
+.slider .slides {
+  background-color: #9e9e9e;
+  margin: 0;
+  height: 400px;
+}
+
+.slider .slides li {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: inherit;
+  overflow: hidden;
+}
+
+.slider .slides li img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider .slides li .caption {
+  color: #fff;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  opacity: 0;
+}
+
+.slider .slides li .caption p {
+  color: #e0e0e0;
+}
+
+.slider .slides li.active {
+  z-index: 2;
+}
+
+.slider .indicators {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+.slider .indicators .indicator-item {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 12px;
+  background-color: #e0e0e0;
+  transition: background-color .3s;
+  border-radius: 50%;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #4CAF50;
+}
+.center, .center-align {
+  text-align: center;
+}
+
+.grey-text {
+  color: #9e9e9e !important;
+  font-size: 3em;
+}
+
+.grey-text.text-lighten-3 {
+  color: #eeeeee !important;
+}
+.light {
+  font-weight: 300;
+}

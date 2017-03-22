@@ -10,7 +10,7 @@ and open the template in the editor.
 
  
 body {
-    background-image: url(img/bg-alter.png);
+    background-image: url(img/bg-alter.jpg);
     color: #525252;
     font-family: "Roboto", sans-serif;
 
@@ -146,7 +146,7 @@ ul.topnav li a {
   padding: 14px 16px; 
   text-decoration: none;
   transition: 0.3s;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 ul.topnav li a:hover { border-bottom:  1px solid #8d1010; 
@@ -217,7 +217,7 @@ ul.topnav li.icon {display: none;}
 
 .videoSection{
     
-  border-bottom: 3px solid black;
+  
  
     width: 70%;
 
@@ -270,9 +270,12 @@ width: 100%;
     width:20%;
 display: inline-block;
   margin-left: 13%;
-  margin-top: 40px;
+ 
+
+
   
-  border-bottom: 2px solid black;
+color: #525252;
+ 
   
     
 
@@ -287,9 +290,8 @@ display: inline-block;
     border-bottom: 2px solid #991515;
 border-top: 2px solid #991515;
  margin-bottom: 6px;
-
-color: white;
- background-color: #525252;
+background-color: #525252;
+   color: white;
 }
 
 .col3 {
@@ -299,28 +301,21 @@ color: white;
     float: left;
     margin-left: 3%;
     display: inline-block;
-    margin-top: 40px;
+    height: 100%;
+
   
    
-  border-bottom:  2px solid #991515;
-    
+    color: #525252;
 
 }
-.col1 img{
-     border-bottom: 2px solid white;
-     border-top: 2px solid white ;
-     border-radius: 50%;
-width: 100%;
+.colmsContainer{
+    width: 100%;
+    border-bottom:   2px solid #525252;
+    border-top:   2px solid #525252;
+    display: table;
+    margin-bottom: 7px;
 }
-
-.col2 img{
-     border-bottom: 2px solid white;
-     border-top: 2px solid white ;
-          border-left:  2px solid white ;
-     border-radius: 50%;
-width: 100%;
-}
-.col3 img{
+.colmsContainer img{
      border-bottom: 2px solid white;
      border-top: 2px solid white ;
      border-radius: 50%;
@@ -328,6 +323,13 @@ width: 100%;
 }
 
 
+
+.layer {
+ 
+ 
+
+
+}
 
 .bg2{
     background-color:white;
@@ -401,7 +403,7 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
+    background: url(img/logoMenu.png) no-repeat;
     background-size: cover; 
 
 
