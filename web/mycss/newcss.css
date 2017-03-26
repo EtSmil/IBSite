@@ -130,8 +130,12 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-   background-color: #29292c;
-border-bottom:  1px solid red;
+   background-color: white;
+       position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+     z-index: 800;
+
 }
 
 ul.topnav li {float: right;  }
@@ -141,22 +145,26 @@ ul.topnav li a {
    
     font-family: Montserrat, sans-serif;
   display: inline-block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px; 
   text-decoration: none;
   transition: 0.3s;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
-ul.topnav li a:hover { border-bottom:  1px solid #8d1010; 
-
+ul.topnav li a:hover {  
+     transform: scale(1.3, 1.3);
+ -moz-transform: scale(1.3, 1.3);
+-ms-transform: scale(1.3, 1.3);
+-webkit-transform: scale(1.3, 1.3);
+-o-transform: scale(1.3, 1.3);
 }
 
 ul.topnav li.icon {display: none;}
 
 @media screen and (max-width:680px) {
-  ul.topnav li:not(:nth-child(6)) {display: none;}
+  ul.topnav li:not(:nth-child(5)) {display: none;}
   ul.topnav li.icon {
     float: right;
     display: inline-block;
@@ -190,9 +198,10 @@ ul.topnav li.icon {display: none;}
 }
 
 .active {
-        border:  3px solid ydellowgreen; 
+        border:  3px solid yellowgreen; 
 
 }
+
 
   .videoSection{
            visibility: hidden;
@@ -210,7 +219,7 @@ ul.topnav li.icon {display: none;}
 
   
      display: inline-block;
-        border-bottom: 1px solid #8d1010;
+     
         padding: 40px;
   
 }
@@ -219,7 +228,7 @@ ul.topnav li.icon {display: none;}
     
   
  
-    width: 70%;
+    width: 90%;
 
   display: block;
     margin: auto;
@@ -252,74 +261,6 @@ width: auto;
     float: left;
     margin: 1%;
     
-}
-.whoSection img{
-     border-bottom: 2px solid white;
-     border-top: 2px solid white ;
-     border-radius: 50%;
-width: 100%;
-
-}
-
-.col1 {
-    text-align: center;
-  
-
-    float: left;
-    padding: 20px;
-    width:20%;
-display: inline-block;
-  margin-left: 13%;
- 
-
-
-  
-color: #525252;
- 
-  
-    
-
-}
-.col2 {
-   
-     width:20%;
-    padding: 20px;
-    float: left;
-    margin-left: 3%;
-display: inline-block;
-    border-bottom: 2px solid #991515;
-border-top: 2px solid #991515;
- margin-bottom: 6px;
-background-color: #525252;
-   color: white;
-}
-
-.col3 {
-   
-     width:20%;
-    padding: 20px;
-    float: left;
-    margin-left: 3%;
-    display: inline-block;
-    height: 100%;
-
-  
-   
-    color: #525252;
-
-}
-.colmsContainer{
-    width: 100%;
-    border-bottom:   2px solid #525252;
-    border-top:   2px solid #525252;
-    display: table;
-    margin-bottom: 7px;
-}
-.colmsContainer img{
-     border-bottom: 2px solid white;
-     border-top: 2px solid white ;
-     border-radius: 50%;
-width: 100%;
 }
 
 
@@ -364,32 +305,11 @@ color: black;
 padding: 0px 1%;
 }
 
-.goals {
-   border-bottom:  2px solid green; 
-    margin: 1px;
-}
-.goals{
-margin:  auto;
-display: inline-block;
- border-bottom: 1px solid #8d1010;
- padding: 30px;
-
-
-}
-.goal{
-    width: 400px;
-    height: 100px;
-    padding: 20px;
-    border: 1px solid white;
-    margin: 5px;
-    float: left;
-    display: inline-block;
-}
 
 .mySlides {display:none;
 }
 
-
+/* background image*/
 video#bgvid { 
     position: fixed;
     top: 50%;
@@ -405,42 +325,51 @@ video#bgvid {
     transform: translateX(-50%) translateY(-50%);
     background: url(img/logoMenu.png) no-repeat;
     background-size: cover; 
-
-
-}
-.goalsColm{
-         width:300px;
-    padding: 20px;
-    float: left;
-   margin: auto;
-    display: inline-block;
-
-    color: white;
-  
-   
-  
-    
-}
-.goalsColmContainer{
- 
-    margin: auto;
-    width: 80%;
-   
-    padding: 10px;
-    
-}
-.goalsColm img{
-     border-bottom: 2px solid white;
-     border-top: 2px solid white ;
-     border-radius: 50%;
 width: 100%;
-    
+
 }
 
 
 
 
+.iconA { /*ul.topnav li.*/
+   position: relative;
+    top: 1px;
+    padding: 3px;
+ width: 200px;
+    float: left;
+   z-index: 90;
+left: -2px;
+    padding-left: 35px;
+  
+    background-color: white;
 
+
+     border-radius: 80%;
+
+
+
+
+
+
+
+  
+       position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+ 
+     z-index: 800;
+}
+
+
+.iconA img{/*ul.topnav li */
+
+
+    height: 100px;
+    width: 100px;
+
+     
+       
+}
 
   /*
   .floating-box1{

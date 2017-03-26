@@ -46,10 +46,7 @@ ul.topnav li a {
   margin: 0px;
 
 }
-ul.topnav li a.iconA {
-    padding: 0px;
- 
-}
+
 
 
 
@@ -111,17 +108,19 @@ ul.topnav li.icon {display: none;}
 
 
 .iconA { /*ul.topnav li.*/
-    top: 0px;
-    padding: 0px;
-    padding-left: 0px;
-    float: left;
-   
-
-    
-    background-color: white;
-    
-
+    top: 10px;
+    padding: 3px;
  
+    float: left;
+   z-index: 1000;
+left: 20px;
+    position: absolute;
+    background-color: white;
+
+    border-bottom: 2px solid white;
+     border-top: 2px solid white ;
+     border-radius: 80%;
+
 }
 
 .iconA img{/*ul.topnav li */

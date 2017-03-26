@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-03-2017, 21:58:20
+    Author     : Alkhozai
+*/
+
+
+.goalsSection{
+    
+    
+     display: inline-block;
+     
+        padding: 40px;
+  padding-top: 5px;
+}
+.goalcol1 {
+    text-align: center;
+    float: left;
+    padding: 20px;
+    width:25%;
+    display: inline-block;
+    margin-left: 5%;
+    color: #525252;
+     z-index: 100;
+}
+.goalcol2 {
+
+    width:25%;
+    padding: 20px;
+    float: left;
+    margin-left: 6%;
+    display: inline-block;
+
+    margin-bottom: 6px;
+    color: #525252;
+      z-index: 200;
+}
+
+.goalcol3 {
+
+    width:25%;
+    padding: 20px;
+    float: left;
+    margin-left: 6%;
+    display: inline-block;
+  z-index: 300;
+
+
+
+    color: #525252;
+
+}
+
+.sectionContainer img{
+   
+     border-bottom: 2px solid white;
+     border-top: 2px solid white ;
+     border-radius: 50%;
+width: 100%;
+
+}
+.sectionContainer{
+ 
+}
+.goalcolHover:hover {
+      transform: scale(1.2, 1.2);
+ -moz-transform: scale(1.2, 1.2);
+-ms-transform: scale(1.2, 1.2);
+-webkit-transform: scale(1.2, 1.2);
+-o-transform: scale(1.2, 1.2);
+
+/* shadow */
+-moz-box-shadow: 5px 5px 5px 5px #888;
+-webkit-box-shadow: 5px 5px 5px 5px  #888;
+box-shadow: 5px 5px 5px 5px  #888;
+    
+}
+.whiteBG{
+       
+    background-color: white;
+}
+
+.golHeader {
+   width: 100%;
+   margin: 0px;
+   height: 100%;
+    margin-bottom: 50px;
+
+    
+    
+}
+.golHeader h1{
+    
+    
+}

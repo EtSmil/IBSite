@@ -10,9 +10,8 @@ and open the template in the editor.
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <script src="scripts/navbar.js" type="text/javascript"></script>
 
-        <title>JSP Page</title>
+        <title>IRAQ Builders - DK</title>
           <!-- Bootsrap start-->
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -24,6 +23,8 @@ and open the template in the editor.
       margin: auto;
   }
   </style>
+  <link href="mycss/whoSection.css" rel="stylesheet" type="text/css"/>
+  <link href="mycss/goalsSection.css" rel="stylesheet" type="text/css"/>
   
   <!-- Bootsrap end-->
       <link href="mycss/newcss.css" rel="stylesheet" type="text/css"/>
@@ -46,12 +47,14 @@ and open the template in the editor.
      <li><a href="#ibdk">DK</a></li>
     
   <li><a class="active" href="#hvem">Hvem?</a></li>
-  <li class="myIcon"><a  href="#top">IRAQ Builders</a></li>    
+  <li class=" iconA"><a  href="#top">  <img src="img/logoKvad.png" alt=""/> </a></li>   
+  
   <li class="icon">
     <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
   </li>
   
 </ul>
+       
 
 <!-- 
 Header
@@ -62,7 +65,7 @@ Header
         
 
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide " data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -74,7 +77,7 @@ Header
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-        <img src="img/demoBanner1.png" alt=""/>
+        <img src="img/demoBanner3.png" alt=""/>
      
       <div class="carousel-caption">
         <h3>IRAQ Builders</h3>
@@ -175,20 +178,26 @@ Derfra startede de mange små frivillige udviklingsprojekter rundt omkring i næ
             
         </div>
    </div>
+     
     </div>
 
 
 
-<div id="ibdk" class="goalsN section">
-    <h1 class="whiteFont"> Vores mål</h1>
-   
+<div id="goals" class="goalsSection whiteBG" >
+    <div class="golHeader"><h1>Vores Mål</h1></div>
+
+   <!--
     <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
     <source src="vid/M100Vid.mp4" type="video/webm">
     <source src="vid/M100Vid.mp4" type="video/mp4">
 </video>
+   -->
+ 
+
+      <div  class=" sectionContainer  ">
       
-         <div class="goalsColmContainer">
-       <div class="goalsColm">
+          
+          <div class="goalcolHover goalcol1">
         
               <img src="img/colSample.jpg" alt=""/>
                 <p> 
@@ -198,7 +207,7 @@ At hjælpe mindrebemidlede irakiske familier; især familier, der mangler forsø
                     
         </div>  
          
-                <div class="goalsColm">
+                <div class="goalcolHover goalcol2">
         
               <img src="img/colSample.jpg" alt=""/>
                 <p> 
@@ -208,7 +217,19 @@ At hjælpe mindrebemidlede irakiske familier; især familier, der mangler forsø
                     
         </div> 
          
-                <div class="goalsColm">
+                <div class="goalcolHover goalcol3">
+        
+              <img src="img/colSample.jpg" alt=""/>
+                <p> 
+
+
+At hjælpe mindrebemidlede irakiske familier; især familier, der mangler forsørgere; enkefamilier og fraskilte kvinder med børn.                 </p>
+                    
+        </div> 
+      </div>
+   <div class="sectionContainer section ">
+  
+       <div class="goalcol1 goalcolHover">
         
               <img src="img/colSample.jpg" alt=""/>
                 <p> 
@@ -218,17 +239,7 @@ At hjælpe mindrebemidlede irakiske familier; især familier, der mangler forsø
                     
         </div> 
     
-   <div class="goalsColm">
-        
-              <img src="img/colSample.jpg" alt=""/>
-                <p> 
-
-
-At hjælpe mindrebemidlede irakiske familier; især familier, der mangler forsørgere; enkefamilier og fraskilte kvinder med børn.                 </p>
-                    
-        </div> 
-    
-            <div class="goalsColm">
+            <div class="goalcol2 goalcolHover">
         
               <img src="img/colSample.jpg" alt=""/>
                 <p> 
@@ -238,7 +249,7 @@ At hjælpe mindrebemidlede irakiske familier; især familier, der mangler forsø
                     
         </div> 
              
-              <div class="goalsColm">
+              <div class="goalcol3 goalcolHover">
         
               <img src="img/colSample.jpg" alt=""/>
                 <p> 
@@ -256,43 +267,6 @@ At hjælpe mindrebemidlede irakiske familier; især familier, der mangler forsø
 
 
 
-
-<script>
-var myIndex = 0;
-//showhide();
-carousel();
-function showhide() {
-
-    
-//    var divs = document.getElementsByClassName("mySlides");
-   var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-   
-       $(x[i]).fadeIn("slow");
-    }
-    
-     myIndex++;
-    if (myIndex > x.length) {myIndex = 1;}    
-   $(x[myIndex-1]).fadeIn("slow");
-    setTimeout(showhide, 2000); // Change image every 2 seconds
-      
-   
-
-}
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 7000); // Change image every 2 seconds
-}
-</script>
 
 <!-- 
 Footer
@@ -331,7 +305,7 @@ Footer
     </div>
 
     <div class="copyR">
-<a  href="https://www.linkedin.com/in/yousef-mohsen-616ab5139?trk=nav_responsive_tab_profile_pic" target="_blank">@Yousef Mohsen</a>
+<a  href="https://www.linkedin.com/in/yousef-mohsen-616ab5139?trk=nav_responsive_tab_profile_pic" target="_blank"> IraqBuilders.dk © 2017 By Yousef Mohsen</a>
 
 </div>
 </div>
