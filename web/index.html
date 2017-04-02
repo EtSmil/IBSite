@@ -10,7 +10,6 @@ and open the template in the editor.
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   <script src="scripts/navbar.js" type="text/javascript"></script>
 
         <title>IRAQ Builders - DK</title>
           <!-- Bootsrap start-->
@@ -24,8 +23,11 @@ and open the template in the editor.
       margin: auto;
   }
   </style>
+
   <link href="mycss/whoSection.css" rel="stylesheet" type="text/css"/>
   <link href="mycss/goalsSection.css" rel="stylesheet" type="text/css"/>
+        <link href="mycss/navbarCSS.css" rel="stylesheet" type="text/css"/>
+
   
   <!-- Bootsrap end-->
       <link href="mycss/newcss.css" rel="stylesheet" type="text/css"/>
@@ -36,7 +38,7 @@ and open the template in the editor.
         
       
         
-        
+        <div class="navDiv">
         <ul class="topnav" id="myTopnav">
             
       
@@ -45,9 +47,8 @@ and open the template in the editor.
   <li><a href="#beVol">Bliv frivillig</a></li>
   
     <li><a href="#goals">Vores mål</a></li>
-     <li><a href="#ibdk">DK</a></li>
     
-  <li><a class="active" href="#hvem">Hvem?</a></li>
+  <li><a class="active" href="#who">Hvem?</a></li>
   <li class=" iconA"><a  href="#top">  <img src="img/logoKvad.png" alt=""/> </a></li>   
   
   <li class="icon">
@@ -55,10 +56,10 @@ and open the template in the editor.
   </li>
   
 </ul>
-       
+       </div> 
 
 <!-- 
-Header
+myCarousel
 
 -->
 
@@ -123,21 +124,19 @@ Header
 </div>
       
 
+<!-- 
+info text
 
-<div id="hvem" class="section whoSection bg3 text-video ">
-    <h1 class="whoSection">Hvem er IRAQ Builders?</h1>
+-->
+<div class="whoSection" id="who" >
+            <h1 class="sectionHeaderH1">Hvem er IRAQ Builders?</h1>
 
-        <video class="videoSection" width="700" muted autoplay >
-            <source src="vid/IBCar.mp4" type="video/mp4">
-            Your browser does not support the <code>video</code> tag.
-        </video>
-     
-       <div class="colmsContainer">
-      
+       <div class="colmsContainer"  >
     
         <div class="col1">
-              <h1> Hvem er vi?</h1>
+              
                  <img src="img/colSample.jpg" alt=""/>
+                 <h1> Hvem er vi?</h1>
         <p>
 IRAQ Builders består af en gruppe unge initiativtagere i Irak, der sammen med deres ligesindede i andre lande har skabt en international organisation, der sigter efter et bedre Irak med en lysere fremtid. 
 
@@ -151,8 +150,9 @@ IRAQ Builders yder hjælp og støtte til alle irakere, uden hensyn til deres rel
     </div>
         
         <div class="col2">
-              <h1> IRAQ Builders i Danmark</h1>
                  <img src="img/colSample.jpg" alt=""/>
+                               <h1> IRAQ Builders i Danmark</h1>
+
                 <p> 
 
 IRAQ Builders Danmark består af en gruppe unge frivillige, der med inspiration fra hovedorganisationen i Irak, forsøger at bidrage med økonomiske midler, samling af tøj, formidling af viden etc. Dette forsøges opnået gennem samarbejde med andre frivillige og donorer. Vores ypperste opgave er at sikre at de ressourcer der gives til de nødslidte, bliver brugt så optimalt som muligt.
@@ -166,8 +166,9 @@ IRAQ Builders Danmarks døre er åbne for alle, og vi byder gerne nye frivillige
         </div>
             
         <div class="col3">
-              <h1> Begyndelsen </h1>
+     
               <img src="img/colSample.jpg" alt=""/>
+                       <h1> Begyndelsen </h1>
                 <p> 
 
 
@@ -179,7 +180,23 @@ Derfra startede de mange små frivillige udviklingsprojekter rundt omkring i næ
             
         </div>
    </div>
-     
+      
+</div>
+<!--
+video section
+-->
+<div class="text-video  ">
+    <div  id="carImg">
+      
+            <img class="videoBackground " src="img/videoBackground.png" alt=""/>
+    </div>
+                <img id="playBtn" class="icon-play" src="img/icon-play1.png" alt=""/>
+
+    
+        <video id="carVideo" class="videoSection" width="700"   >
+            <source src="vid/IBCar.mp4" type="video/mp4">
+            Your browser does not support the <code>video</code> tag.
+        </video>
     </div>
 
 
@@ -263,9 +280,10 @@ At hjælpe mindrebemidlede irakiske familier; især familier, der mangler forsø
 </div>
 </div>
 
-
+<script src="scripts/playVideoScript.js" type="text/javascript"></script>
 
 <script>
+    
 var myIndex = 0;
 //showhide();
 carousel();

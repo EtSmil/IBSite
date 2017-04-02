@@ -7,8 +7,99 @@ and open the template in the editor.
     Created on : 18-03-2017, 19:26:56
     Author     : Alkhozai
 */
+.navDiv{
+    list-style-type: none;
+  padding: 0;
+   background-color: white;
+       position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+     z-index: 800;
+    
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-right:  40px ;
+}
+
+ul.topnav li {float: right;  }
+ul.topnav li.myIcon {float: left;  }
+
+ul.topnav li a {
+   
+    font-family: Montserrat, sans-serif;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px; 
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 1.5em;
+}
+
+ul.topnav li a:hover {  
+     transform: scale(1.3, 1.3);
+ -moz-transform: scale(1.3, 1.3);
+-ms-transform: scale(1.3, 1.3);
+-webkit-transform: scale(1.3, 1.3);
+-o-transform: scale(1.3, 1.3);
+}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:nth-child(5)) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+  
+
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+    
+    font-family: Montserrat, sans-serif;
+  }
+  
+  
+  li a:hover:not(.active) {
 
 
+}
+
+.active {
+        border:  3px solid yellowgreen; 
+
+}
+
+ul.topnav li a:hover { 
+      transform: scale(1, 1);
+ -moz-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+ }
+  
+}
+
+/*
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -106,8 +197,8 @@ ul.topnav li.icon {display: none;}
 }
 }
 
-
-.iconA { /*ul.topnav li.*/
+/*
+.iconA {
     top: 10px;
     padding: 3px;
  
@@ -123,7 +214,7 @@ left: 20px;
 
 }
 
-.iconA img{/*ul.topnav li */
+.iconA img{
 
 
     height: 100px;
@@ -133,10 +224,10 @@ left: 20px;
        
 }
 
-
+*/
 
 /*//////////////////*/
-
+/*
 
 .slider {
   position: relative;
@@ -243,3 +334,4 @@ left: 20px;
 .light {
   font-weight: 300;
 }
+*/
