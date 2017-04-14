@@ -18,7 +18,7 @@ margin-bottom: 20px;
 .whoSection img{
      border-bottom: 2px solid white;
      border-top: 2px solid white ;
-     border-radius: 50%;
+  
       width: 100%;
 
 }
@@ -90,7 +90,7 @@ color: #525252;
 .colmsContainer img{
      border-bottom: 2px solid white;
      border-top: 2px solid white ;
-     border-radius: 50%;
+ /*    border-radius: 50%;*/
 width: 100%;
 margin-bottom: 10px;
 }

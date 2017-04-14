@@ -15,7 +15,7 @@ and open the template in the editor.
      display: inline-block;
      
         padding: 40px;
-  padding-top: 5px;
+  padding-top: 50px;
 }
 .goalcol1 {
     text-align: center;
@@ -66,18 +66,18 @@ width: 100%;
 .sectionContainer{
  
 }
-.goalcolHover:hover {
-      transform: scale(1.2, 1.2);
- -moz-transform: scale(1.2, 1.2);
--ms-transform: scale(1.2, 1.2);
--webkit-transform: scale(1.2, 1.2);
--o-transform: scale(1.2, 1.2);
+.goalcolHover:hover {/*
+      transform: scale(1.1, 1.1);
+ -moz-transform: scale(1.1, 1.1);
+-ms-transform: scale(1.1, 1.1);
+-webkit-transform: scale(1.1, 1.1);
+-o-transform: scale(1.1, 1.1);
 
-/* shadow */
+ shadow
 -moz-box-shadow: 5px 5px 5px 5px #888;
 -webkit-box-shadow: 5px 5px 5px 5px  #888;
 box-shadow: 5px 5px 5px 5px  #888;
-    
+     */
 }
 .whiteBG{
        

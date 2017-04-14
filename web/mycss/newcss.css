@@ -31,7 +31,8 @@ html { font-size: 62.5%; }
 .groupPicdiv{
 
    position: absolute; 
-   top: 15%; 
+
+   top: 15%;
  /* left: 50%*/
    width: 100%; 
      text-align:  center;
@@ -163,17 +164,18 @@ body{
 
 .copyR{
    
-       background-color: #cccccc;
-    width: 100%;
+      text-align: center;
+    width: 80%;
+    margin: auto;
     height: 30px;
          color: white;
-  text-align: left;
-  padding: 3px;
+
+  padding: 20px;
   
 }
 .copyR a{
-     color:#29292c;
-  text-align: left;
+   color: white;
+
 }
 h1{
     text-align: center; 
@@ -260,7 +262,7 @@ body {margin:0;}
        
 
 .videoBackground {
-    width: 90%;
+   height: 80%;
     margin: auto;
     display: block;
     
@@ -271,8 +273,25 @@ body {margin:0;}
     position: absolute;
   top: 30%;
   left: 38%;
-  width: 20%;
+  width: 15%;
 }
+
+.videoText {
+       position: absolute;
+  top: 1%;
+  
+ left: 38%;
+    color: black;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+        font-size: 6rem;
+            font-weight: 700;
+margin-bottom: 20px;
+
+    text-align: center;
+    
+}
+
+
 .icon-play:hover{
         transform: scale(1.2, 1.2);
  -moz-transform: scale(1.2, 1.2);
