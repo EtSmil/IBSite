@@ -37,7 +37,7 @@ ul.topnav li a {
   padding: 14px 16px; 
   text-decoration: none;
   transition: 0.3s;
-  font-size: 1.5em;
+  font-size: 2.2rem;
 }
 
 ul.topnav li a:hover {  
@@ -51,12 +51,14 @@ ul.topnav li a:hover {
 ul.topnav li.icon {display: none;}
 
 @media screen and (max-width:680px) {
-  ul.topnav li:not(:nth-child(5)) {display: none;}
+      ul.topnav li:not(:nth-child(7)) {display: none;}
+     
   ul.topnav li.icon {
     float: right;
     display: inline-block;
   }
-  
+
+
 
 }
 
@@ -98,6 +100,10 @@ ul.topnav li a:hover {
  }
   
 }
+
+
+
+
 
 /*
 ul.topnav {

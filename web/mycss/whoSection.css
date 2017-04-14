@@ -11,8 +11,9 @@ and open the template in the editor.
 .sectionHeaderH1{
     
   font-family: Tahoma, Verdana, Segoe, sans-serif;
-        font-size: 70px;
+        font-size: 6rem;
             font-weight: 700;
+margin-bottom: 20px;
 }
 .whoSection img{
      border-bottom: 2px solid white;
@@ -78,7 +79,14 @@ color: #525252;
     display: table;
     margin-bottom: 7px;
     background-color:white;
+    
 }
+.colmsContainer p{
+    
+    font-size: 1.7rem; 
+    
+}
+
 .colmsContainer img{
      border-bottom: 2px solid white;
      border-top: 2px solid white ;

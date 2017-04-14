@@ -18,7 +18,114 @@ body {
     line-height: 2;
 }
 
+html { font-size: 62.5%; } 
 
+.groupPic{
+   
+    width:100%;
+    margin: 0px;
+     margin-top: 30px;
+     
+    
+}
+.groupPicdiv{
+
+   position: absolute; 
+   top: 15%; 
+ /* left: 50%*/
+   width: 100%; 
+     text-align:  center;
+
+}
+
+.headerButton{
+
+    border: 1px solid white;
+      top: 15%; 
+
+     color: white;
+     font-size: 2.5rem;
+          text-align:  center;
+padding: 5px 20px;
+     
+   position: absolute; 
+   top:24%; 
+left: 3%
+ 
+}
+
+.donerButton{
+ 
+    border: 1px solid white;
+      top: 33%; 
+
+     color: white;
+   font-size: 2.5rem;
+          text-align:  center;
+padding: 4px 35px;
+     
+   position: absolute; 
+
+left:  3%
+    
+}
+.headerButton:hover, .donerButton:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
+.groupPic img { 
+ -webkit-filter: blur(4px);filter: blur(0.5px);
+    width: 100%;
+    height: auto;
+
+}
+.groupPicdiv img{
+    
+    width: 70px;
+ height: auto;
+ 
+animation: spinning-logocat 3s infinite;
+
+    
+}
+.groupPicdiv img:hover{
+    
+      transform: scale(1.2, 1.2);
+ -moz-transform: scale(1.2, 1.2);
+-ms-transform: scale(1.2, 1.2);
+-webkit-transform: scale(1.2, 1.2);
+-o-transform: scale(1.2, 1.2);
+
+    
+}
+
+@keyframes spinning-logocat {50%{transform:rotateY(180deg);}}
+@keyframes spin-dat-cat {50%{transform:rotateY(180deg);}}
+.donateSectionHeader{
+    
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+        font-size: 6rem;
+            font-weight: 700;
+margin-bottom: 0px;
+}
+.subtitle{
+        font-size: 2rem;
+     font-weight: 200;
+     margin-bottom: 20px;
+     margin-top: 0px;
+     top: 0px;
+
+
+}
+
+@media screen and (max-width:680px) {
+  
+  html { font-size: 40.5%; } 
+
+}
 
 
 
@@ -80,8 +187,6 @@ h1{
   bottom: 0;
   left: 0;
   padding: 10px 0 ;
-  border-top:  4px solid #8d1010;
-
    background-color: #29292c;
   text-align: center;
   font-family: Montserrat, sans-serif;
@@ -176,9 +281,10 @@ body {margin:0;}
 -o-transform: scale(1.2, 1.2);
   
 }
-.text-video{
+.videoSOuter{
 padding: 0px 15px;
   position: relative;
+ background-color:#e0dfdf;
 
 }
 
@@ -312,3 +418,6 @@ left: -2px;
 
      
 }
+
+
+

@@ -15,8 +15,8 @@ carImg.addEventListener("click",function(){
     carVideo.style.display = "block";  
     carVideo.play();
 
- //carVideo.addEventListener('ended',showButton,false);
-    setTimeout(showButton, 5000);
+ carVideo.addEventListener('ended',showButton,false);
+    
 });
 playBtn.addEventListener("click",function(){
     carImg.style.display = "none";
@@ -24,8 +24,8 @@ playBtn.addEventListener("click",function(){
     carVideo.style.display = "block";  
     carVideo.play();
 
- //carVideo.addEventListener('ended',showButton,false);
-    setTimeout(showButton, 2000);
+ carVideo.addEventListener('ended',showButton,false);
+    
 });
 
 
