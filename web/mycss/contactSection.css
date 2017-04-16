@@ -10,8 +10,64 @@ and open the template in the editor.
 
 .contactSection{
     
-    background-color: white;
+    background-color:#525252;
 margin: 0px;
     width: 100%;
     
+        padding: 50px;
+        
+        padding-bottom: 130px;
+     
+    
+}
+
+
+
+
+.facebook img, .instagram img, .youtube img,.email img {
+  
+      width: 50%;
+    height: auto;
+margin-bottom: 0px;
+
+  
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+
+
+
+.iconContainer{
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+       display: flex;
+           justify-content: space-between;
+           margin-top: 40px;
+color: white;
+}
+.iconContainer a{
+    
+    color: white;
+}
+
+.iconContainer h4{
+    margin: 0px;
+    text-align: center;
+}
+
+.email h4{
+
+    
+}
+.contactHeader{
+    
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+        font-size: 6rem;
+            font-weight: 700;
+margin-bottom: 0px;
+color: white;
 }

@@ -163,19 +163,26 @@ body{
 
 
 .copyR{
-   
+  
       text-align: center;
-    width: 80%;
-    margin: auto;
-    height: 30px;
-         color: white;
+    width: 100%;
 
-  padding: 20px;
+    
+     
+    background-color:white;
+    
+
+ 
+ 
+ 
   
 }
 .copyR a{
-   color: white;
-
+     border-top:   1px solid white;
+     padding: 3px;
+     margin-top: 70px;
+    bottom:   1px;
+     color: #525252;
 }
 h1{
     text-align: center; 
@@ -254,41 +261,69 @@ body {margin:0;}
 }
 
 .videoSection{
-    width: 90%;
+    width: 100%;
     margin: auto;
-  
+  padding: 10px 40px;
     display: none;
 }
        
 
 .videoBackground {
-   height: 80%;
+     width: 100%;
+   height: auto;
+  
     margin: auto;
     display: block;
     
 }
 
-.icon-play{
+.videoBox{
     
-    position: absolute;
-  top: 30%;
-  left: 38%;
-  width: 15%;
+    width: 45%;
+    height: auto;
+        display: inline-block;
+        position: relative;
+
+             
+
+}
+.videoBox h4{
+        text-align: center;
+   font-size: 3rem;
 }
 
-.videoText {
-       position: absolute;
+.videoBoxContainer{
+    width: 80%;
+    margin: auto;
+    
+       display: flex;
+           justify-content: space-between;
+           margin-top: 50px;
+           
+}
+.icon-play{
+  position: absolute;
+
+  top: 20%;
+  left: 30%;
+  width: 40%;
+}
+
+.videoText h1 {
+      
   top: 1%;
   
  left: 38%;
-    color: black;
+       color: #525252;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
-        font-size: 6rem;
+        font-size: 5rem;
             font-weight: 700;
 margin-bottom: 20px;
 
     text-align: center;
+   
     
+
 }
 
 
@@ -304,6 +339,9 @@ margin-bottom: 20px;
 padding: 0px 15px;
   position: relative;
  background-color:#e0dfdf;
+   padding: 50px 10px;
+
+       margin-top: 0px;  
 
 }
 
