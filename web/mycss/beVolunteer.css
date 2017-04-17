@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-04-2017, 01:16:57
+    Author     : Alkhozai
+*/
+
+.beVol{
+    
+   width: 100%;
+    
+    padding-bottom: 30px;
+    background-color:#e0dfdf;
+    
+          text-align: center;
+     display: inline-block;
+     
+       
+  padding-top: 60px;
+    padding-top: 60px;
+}
+
+
+.skema{
+    
+    margin: auto;
+    width: 90%;
+
+    margin-bottom: 100px;
+}
+.skema iframe{
+    width: 100%;
+    height: 700px;
+    
+}
+
+
+.beVolHeader{
+     width: 50%;
+    margin: auto ;
+    padding: 30px;
+    padding-bottom: 0px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+        font-size: 6rem;
+            font-weight: 700;
+margin-bottom: 0px;
+
+    
+}
+
+.answer{
+    
+    border: 1px solid red;
+        width: 500px;
+}
+
+.answer,
+#show,
+#hide:target {
+    display: none; 
+}
+
+#hide:target + #show,
+#hide:target ~ .answer {
+    display: inline; 
+    width: 100%;
+}
+.hideForm{
+    width: 4%;
+    height: 1%;
+        background-color: greenyellow;
+}
+
+
+.showForm{
+       width: 4%;
+    height: 1%;
+        background-color: greenyellow;
+    
+}

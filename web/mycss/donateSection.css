@@ -9,15 +9,15 @@ and open the template in the editor.
 */
 
 .donate{
-    padding: 10px;
+ 
     padding-bottom: 30px;
     background-color:#e0dfdf;
     
           text-align: center;
      display: inline-block;
      
-        padding: 40px;
-  padding-top: 5px;
+        
+  padding-top: 60px;
 
 }
 
@@ -37,7 +37,7 @@ and open the template in the editor.
     margin-bottom: 2px;
 }
 .mobilepay h3{
- font-size: 5.5rem;
+ font-size: 5rem;
  float:top;
  margin: 0px;
  color: #003755;

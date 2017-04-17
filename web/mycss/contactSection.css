@@ -10,13 +10,14 @@ and open the template in the editor.
 
 .contactSection{
     
-    background-color:#525252;
+    background-color:white;;
 margin: 0px;
     width: 100%;
     
         padding: 50px;
         
-        padding-bottom: 130px;
+        padding-bottom: 5px;;
+              padding-top: 250px;
      
     
 }
@@ -38,7 +39,16 @@ margin-bottom: 0px;
 
 
 
-
+.email{
+    
+    display: inline-block;
+    width: 15%;
+    margin: 0px;
+    position: absolute;
+    
+    top: 1%;
+    left: 20%;
+}
 
 .iconContainer{
     width: 50%;
@@ -50,8 +60,8 @@ margin-bottom: 0px;
 color: white;
 }
 .iconContainer a{
-    
-    color: white;
+    margin-top: 2px;
+    color: #525252;
 }
 
 .iconContainer h4{
@@ -59,15 +69,117 @@ color: white;
     text-align: center;
 }
 
-.email h4{
 
-    
-}
 .contactHeader{
-    
+
+margin: auto;
+
   font-family: Tahoma, Verdana, Segoe, sans-serif;
-        font-size: 6rem;
+        font-size: 4rem;
             font-weight: 700;
 margin-bottom: 0px;
-color: white;
+color: #525252;
+text-align: center;
+
+
+}
+.emailLogo{
+    width: 30%;
+    margin: auto;
+    position: absolute;
+   right:  25%;
+       top: -40%;
+    
+}
+.emailLogo h4{
+    display: inline-block;
+    color: #525252;
+}
+.emailLogo img{
+  
+    width: 30%;
+}
+.contactHeaderContainer{
+ width: 50%;
+    margin: auto;
+      display: flex;
+           justify-content: space-between;
+}
+
+
+/*
+contact form
+*/
+
+.emailContainer{
+    border-bottom:  1px solid white;
+    position: relative;
+}
+
+.formStyle{
+    font-family: 'Open Sans Condensed', arial, sans;
+    width: 50%;
+    padding: 30px;
+
+margin: auto;
+margin-top: 50px;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+.formStyle h2{
+    background: #4D4D4D;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+    text-align: center;
+}
+.formStyle input[type="text"],
+.formStyle input[type="email"],
+.formStyle input[type="number"],
+.formStyle textarea,
+.formStyle select 
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+    color: #525252;
+}
+
+
+.formStyle textarea{
+    resize:none;
+    overflow: hidden;
+}
+
+.formStyle input[type="submit"]{
+   
+    background-color: white;
+    border: 1px solid #27A0A0;
+    display: inline-block;
+    cursor: pointer;
+border: 1px solid red;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.formStyle input[type="button"]:hover, 
+.formStyle input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color:#34CACA;
 }

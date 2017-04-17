@@ -106,7 +106,10 @@ animation: spinning-logocat 3s infinite;
 @keyframes spinning-logocat {50%{transform:rotateY(180deg);}}
 @keyframes spin-dat-cat {50%{transform:rotateY(180deg);}}
 .donateSectionHeader{
-    
+       width: 50%;
+    margin: auto ;
+    padding: 30px;
+    padding-bottom: 0px;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
         font-size: 6rem;
             font-weight: 700;
@@ -127,6 +130,13 @@ margin-bottom: 0px;
   html { font-size: 40.5%; } 
 
 }
+@media screen and (max-width:1298px) {
+  
+  html { font-size: 40.5%; } 
+
+}
+
+
 
 
 
@@ -165,20 +175,20 @@ body{
 .copyR{
   
       text-align: center;
-    width: 100%;
+    width: 40%;
 
-    
-     
+      border-top:   1px solid #525252;
+     margin: auto;
     background-color:white;
     
-
+margin-top: 100px
  
  
  
   
 }
 .copyR a{
-     border-top:   1px solid white;
+   
      padding: 3px;
      margin-top: 70px;
     bottom:   1px;
@@ -256,7 +266,7 @@ body {margin:0;}
   width: 100%;
      display: inline-block;
      
-        padding: 40px;
+  
   
 }
 
@@ -285,11 +295,15 @@ body {margin:0;}
         position: relative;
 
              
+ background-color:white;
 
 }
 .videoBox h4{
         text-align: center;
    font-size: 3rem;
+   padding: 5px 10px;
+    background-color:white;
+
 }
 
 .videoBoxContainer{
@@ -309,8 +323,15 @@ body {margin:0;}
   width: 40%;
 }
 
+.videoText{
+    width: 50%;
+    margin: auto;
+              border-top: 1px solid #525252;
+
+}
+
 .videoText h1 {
-      
+
   top: 1%;
   
  left: 38%;
@@ -335,14 +356,14 @@ margin-bottom: 20px;
 -o-transform: scale(1.2, 1.2);
   
 }
-.videoSOuter{
-padding: 0px 15px;
+.videoSOuter{ 
+padding: 40px 600px;
   position: relative;
- background-color:#e0dfdf;
-   padding: 50px 10px;
-
+background: linear-gradient(to bottom, white 0%,white 50%,#000000 50%,white 50%,white 100%);  
+padding: 50px 10px;
        margin-top: 0px;  
 
+padding-bottom: 100px;
 }
 
 
