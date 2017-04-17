@@ -57,10 +57,11 @@ and open the template in the editor.
 
 .sectionContainer img{
    
-     border-bottom: 2px solid white;
+     border-bottom: 10px solid white;
      border-top: 2px solid white ;
      border-radius: 50%;
 width: 100%;
+
 
 }
 .sectionContainer{

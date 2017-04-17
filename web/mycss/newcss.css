@@ -105,15 +105,20 @@ animation: spinning-logocat 3s infinite;
 
 @keyframes spinning-logocat {50%{transform:rotateY(180deg);}}
 @keyframes spin-dat-cat {50%{transform:rotateY(180deg);}}
+
+
+
+
+
 .donateSectionHeader{
-       width: 50%;
+       width: 100%;
     margin: auto ;
     padding: 30px;
     padding-bottom: 0px;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
-        font-size: 6rem;
+        font-size: 5rem;
             font-weight: 700;
-margin-bottom: 0px;
+margin-bottom: 100px;
 }
 .subtitle{
         font-size: 2rem;
@@ -127,12 +132,12 @@ margin-bottom: 0px;
 
 @media screen and (max-width:680px) {
   
-  html { font-size: 40.5%; } 
+  html { font-size: 54.5%; } 
 
 }
 @media screen and (max-width:1298px) {
   
-  html { font-size: 40.5%; } 
+  html { font-size: 58.5%; } 
 
 }
 
@@ -177,11 +182,11 @@ body{
       text-align: center;
     width: 40%;
 
-      border-top:   1px solid #525252;
+      border-top:   1px solid white;
      margin: auto;
-    background-color:white;
+      font-size: 1.5rem;
     
-margin-top: 100px
+margin-top: 50px
  
  
  
@@ -192,7 +197,7 @@ margin-top: 100px
      padding: 3px;
      margin-top: 70px;
     bottom:   1px;
-     color: #525252;
+     color: white;
 }
 h1{
     text-align: center; 
@@ -275,6 +280,7 @@ body {margin:0;}
     margin: auto;
   padding: 10px 40px;
     display: none;
+   
 }
        
 
@@ -293,6 +299,9 @@ body {margin:0;}
     height: auto;
         display: inline-block;
         position: relative;
+                  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.6); 
 
              
  background-color:white;
@@ -313,6 +322,9 @@ body {margin:0;}
        display: flex;
            justify-content: space-between;
            margin-top: 50px;
+
+           
+           
            
 }
 .icon-play{
@@ -326,7 +338,6 @@ body {margin:0;}
 .videoText{
     width: 50%;
     margin: auto;
-              border-top: 1px solid #525252;
 
 }
 
@@ -359,11 +370,11 @@ margin-bottom: 20px;
 .videoSOuter{ 
 padding: 40px 600px;
   position: relative;
-background: linear-gradient(to bottom, white 0%,white 50%,#000000 50%,white 50%,white 100%);  
 padding: 50px 10px;
        margin-top: 0px;  
 
 padding-bottom: 100px;
+ background-color:#e2dfdf;
 }
 
 
@@ -496,6 +507,5 @@ left: -2px;
 
      
 }
-
 
 
