@@ -39,42 +39,7 @@ html { font-size: 62.5%; }
 
 }
 
-.headerButton{
 
-    border: 1px solid white;
-      top: 15%; 
-
-     color: white;
-     font-size: 2.5rem;
-          text-align:  center;
-padding: 5px 20px;
-     
-   position: absolute; 
-   top:24%; 
-left: 3%
- 
-}
-
-.donerButton{
- 
-    border: 1px solid white;
-      top: 33%; 
-
-     color: white;
-   font-size: 2.5rem;
-          text-align:  center;
-padding: 4px 35px;
-     
-   position: absolute; 
-
-left:  3%
-    
-}
-.headerButton:hover, .donerButton:hover{
-    background-color: white;
-    color: black;
-
-}
 
 
 .groupPic img { 
@@ -109,6 +74,36 @@ animation: spinning-logocat 3s infinite;
 
 
 
+.sectionTitle{
+    
+       width: 100%;
+    margin: auto ;
+    padding-top:  70px;
+    padding-bottom: 0px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+        font-size: 5rem;
+            font-weight: 700;
+margin-bottom: 100px;
+
+
+}
+
+.followUsHeader{
+           width: 100%;
+    margin: auto ;
+    padding-top:  70px;
+    padding-bottom: 0px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+        font-size: 3rem;
+            font-weight: 700;
+margin-bottom: 50px;
+
+}
+
+
+
+
+
 
 .donateSectionHeader{
        width: 100%;
@@ -126,6 +121,7 @@ margin-bottom: 100px;
      margin-bottom: 20px;
      margin-top: 0px;
      top: 0px;
+     
 
 
 }
@@ -295,13 +291,13 @@ body {margin:0;}
 
 .videoBox{
     
-    width: 45%;
+    width: 46%;
     height: auto;
         display: inline-block;
         position: relative;
-                  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.6); 
+                  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow:  0px 0px 20px rgba(0, 0, 0, 0.6); 
 
              
  background-color:white;
@@ -310,13 +306,13 @@ body {margin:0;}
 .videoBox h4{
         text-align: center;
    font-size: 3rem;
-   padding: 5px 10px;
+   padding: 10px 10px;
     background-color:white;
 
 }
 
 .videoBoxContainer{
-    width: 80%;
+    width: 82%;
     margin: auto;
     
        display: flex;
@@ -335,28 +331,6 @@ body {margin:0;}
   width: 40%;
 }
 
-.videoText{
-    width: 50%;
-    margin: auto;
-
-}
-
-.videoText h1 {
-
-  top: 1%;
-  
- left: 38%;
-       color: #525252;
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
-        font-size: 5rem;
-            font-weight: 700;
-margin-bottom: 20px;
-
-    text-align: center;
-   
-    
-
-}
 
 
 .icon-play:hover{
@@ -368,9 +342,9 @@ margin-bottom: 20px;
   
 }
 .videoSOuter{ 
-padding: 40px 600px;
+
   position: relative;
-padding: 50px 10px;
+
        margin-top: 0px;  
 
 padding-bottom: 100px;
@@ -383,24 +357,6 @@ padding-bottom: 100px;
 
 
 
-.ibDK {
-    
-    
-    
-}
-.ibDK{
-font-family: Montserrat, sans-serif;
- padding: 1%;
-text-align: left;
- color:#29292c;
-
-padding: 0px 1%;
-  
-
-margin: 1px;;
-width: auto;
-}
-
 
 .ibDK img{
     float: left;
@@ -410,12 +366,6 @@ width: auto;
 
 
 
-.layer {
- 
- 
-
-
-}
 
 .bg2{
     background-color:white;
@@ -509,3 +459,16 @@ left: -2px;
 }
 
 
+.beVolHeader{
+padding-bottom: 0px;
+margin-bottom: 10px;
+
+    
+}
+
+
+.dottedLine{
+    width: 80%;
+        border-top: 0.5rem dotted #525252;
+    margin: auto;
+}

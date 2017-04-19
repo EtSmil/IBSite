@@ -67,6 +67,7 @@ color: white;
 .iconContainer h4{
     margin: 0px;
     text-align: center;
+       
 }
 
 
@@ -79,6 +80,7 @@ margin: auto;
 margin-bottom: 0px;
 color: #525252;
 text-align: center;
+   
 
 
 }
@@ -93,6 +95,7 @@ text-align: center;
 .emailLogo h4{
     display: inline-block;
     color: #525252;
+      
 }
 .emailLogo img{
   
@@ -113,6 +116,7 @@ contact form
 .emailContainer{
     border-bottom:  1px solid white;
     position: relative;
+    
 }
 
 .formStyle{

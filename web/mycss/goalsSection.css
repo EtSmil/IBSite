@@ -15,8 +15,10 @@ and open the template in the editor.
      display: inline-block;
      
         padding: 40px;
-  padding-top: 50px;
+padding-top: 0px;
 }
+
+
 .goalcol1 {
     text-align: center;
     float: left;
@@ -94,7 +96,10 @@ box-shadow: 5px 5px 5px 5px  #888;
     
     
 }
-.golHeader h1{
+.goalsSection p{
     
-    
+    color: #525252;
+
+ text-align: left;
+font-size: 1.7rem;
 }

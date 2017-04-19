@@ -15,14 +15,26 @@ and open the template in the editor.
     padding-bottom: 100px;
     background-color:#e0dfdf;
     
-          text-align: center;
+          text-align: left;
      display: inline-block;
      
        
-  padding-top: 60px;
-    padding-top: 60px;
+ 
 }
-
+.beVolSubtitle{
+        padding: 0px 20%;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
+.beVolText{
+    
+    padding: 0px 20%;
+    text-align: left;
+    font-size: 1.8rem;
+}
 
 .skema{
     
@@ -38,18 +50,6 @@ and open the template in the editor.
 }
 
 
-.beVolHeader{
-     width: 100%;
-    margin: auto ;
-    padding: 30px;
-    padding-bottom: 0px;
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
-        font-size: 5rem;
-            font-weight: 700;
-margin-bottom: 0px;
-
-    
-}
 
 .answer{
     
@@ -88,4 +88,40 @@ margin-bottom: 0px;
     display: block;
     margin: auto;
     margin: 10px auto;
+}
+
+.beVolHeader{
+padding-bottom: 0px;
+margin-bottom: 0px;
+
+    
+}
+
+
+
+
+.requContainer{
+    width: 60%;
+margin: auto;
+    
+   
+
+}
+.requContainer h1{
+    
+    margin-bottom:  10px;
+    font-size: 4rem;
+}
+
+.req{
+    width: 50%;
+    
+   
+
+font-weight:bold;
+ 
+        /* 1px solid #73AD21;*/
+     text-align: left;
+    font-size: 1.8rem;
+    
 }

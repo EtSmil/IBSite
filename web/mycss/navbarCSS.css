@@ -32,7 +32,8 @@ ul.topnav li a {
    
     font-family: Montserrat, sans-serif;
   display: inline-block;
-  color: black;
+    color: #525252;
+
   text-align: center;
   padding: 14px 16px; 
   text-decoration: none;
