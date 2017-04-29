@@ -119,8 +119,8 @@ margin-bottom: 5px;
 
 top: 0px;
     margin-top: 0px;
-   text-align: left;
-
+   text-align: center;
+width: 49%;
 
 
 }
@@ -129,19 +129,22 @@ top: 0px;
     margin: auto;
         font-size: 1.8rem;
 
-
+margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 .reqColm h1{
     
-    margin-bottom:  00px;
-    font-size: 3rem;
-    background-color: white;
-    padding-bottom: 5px;
+    font-size: 2.9rem;
+                font-weight: 700;
+
+
 }
 
 .req{
    
-
+border: 1px solid black;
+background-color: white;
 
    margin: auto;
 
@@ -152,20 +155,24 @@ font-weight:bold;
     padding: 5px 0px;
 }
 .reqImg{
-    width: 4%;
+    width: 9%;
         margin: auto;
-
+margin-left: auto;
+	margin-right: auto;
+	display: block;
+    
 
     
 }
 .reqColmContainer{
-        padding: 0px 20%;
+        padding: 0px 15%;
 
     width: 100%;
     margin: auto;
 
      display: flex;
            justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 
