@@ -38,9 +38,9 @@ margin-bottom: 0px;
 
     float: left;
     padding: 20px;
-    width:25%;
+    width:49%;
 display: inline-block;
-  margin-left: 8%;
+/*  margin-left: 8%;*/
  
 
 
@@ -53,10 +53,10 @@ color: #525252;
 }
 .col2 {
    
-     width:25%;
+    width:49%;
     padding: 20px;
-    float: left;
-    margin-left: 3%;
+ /*   float: left;
+    margin-left: 3%;*/
     display: inline-block;
   
    color: #525252;
@@ -65,10 +65,11 @@ color: #525252;
 
 .col3 {
    
-     width:25%;
+     width:auto;
+     width:auto;
     padding: 20px;
-    float: left;
-    margin-left: 3%;
+  /*  float: left;
+    margin-left: 3%;*/
     display: inline-block;
 
   
@@ -83,6 +84,9 @@ color: #525252;
     display: table;
     
     background-color:white;
+           display: flex;
+           justify-content: space-between;
+    padding: 0px 1%
 }
 .colmsContainer p{
     
