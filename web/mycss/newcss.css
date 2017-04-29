@@ -93,10 +93,11 @@ margin-bottom: 100px;
     margin: auto ;
     padding-top:  70px;
     padding-bottom: 0px;
+    margin-top: 10px;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
         font-size: 3rem;
             font-weight: 700;
-margin-bottom: 50px;
+    border-top: solid 1px black;
 
 }
 

@@ -46,6 +46,7 @@ and open the template in the editor.
 .skema iframe{
     width: 80%;
     height: 700px;
+    margin: auto;
     
 }
 
@@ -54,7 +55,13 @@ and open the template in the editor.
 .answer{
     
     border: 1px solid red;
-        width: 500px;
+        width: 100%;
+    margin: auto;
+}
+.answer iframe{
+    width: 100%;
+   margin: auto;;
+
 }
 
 .answer,
@@ -92,36 +99,77 @@ and open the template in the editor.
 
 .beVolHeader{
 padding-bottom: 0px;
-margin-bottom: 0px;
-
-    
-}
-
-
-
-
-.requContainer{
-    width: 60%;
-margin: auto;
-    
-   
+margin-bottom: 10px;
+       width: 100%;
+    margin: auto ;
+    padding-top:  70px;
+    padding-bottom: 0px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+        font-size: 5rem;
+            font-weight: 700;
+margin-bottom: 5px;
+        display:inline-block;
 
 }
-.requContainer h1{
+
+
+
+
+.reqColm{
+
+top: 0px;
+    margin-top: 0px;
+   text-align: left;
+
+
+
+}
+.reqColm p{
+    width: 100%;
+    margin: auto;
+        font-size: 1.8rem;
+
+
+}
+.reqColm h1{
     
-    margin-bottom:  10px;
-    font-size: 4rem;
+    margin-bottom:  00px;
+    font-size: 3rem;
+    background-color: white;
+    padding-bottom: 5px;
 }
 
 .req{
-    width: 50%;
-    
    
+
+
+   margin: auto;
 
 font-weight:bold;
  
         /* 1px solid #73AD21;*/
-     text-align: left;
     font-size: 1.8rem;
+    padding: 5px 0px;
+}
+.reqImg{
+    width: 4%;
+        margin: auto;
+
+
     
 }
+.reqColmContainer{
+        padding: 0px 20%;
+
+    width: 100%;
+    margin: auto;
+
+     display: flex;
+           justify-content: space-between;
+}
+
+
+
+
+
+
