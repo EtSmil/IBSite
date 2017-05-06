@@ -47,9 +47,7 @@ display: inline-block;
   
 color: #525252;
  
-  
     
-
 }
 .col2 {
    
@@ -58,9 +56,8 @@ color: #525252;
  /*   float: left;
     margin-left: 3%;*/
     display: inline-block;
-  
    color: #525252;
-   
+
 }
 
 .col3 {
@@ -84,9 +81,10 @@ color: #525252;
     display: table;
     
     background-color:white;
+
            display: flex;
            justify-content: space-between;
-    padding: 0px 1%
+    padding: 0px 2%
 }
 .colmsContainer p{
     
@@ -95,11 +93,15 @@ color: #525252;
 }
 
 .colmsContainer img{
-     border-bottom: 2px solid white;
+  /*   border-bottom: 2px solid white;
      border-top: 2px solid white ;
- /*    border-radius: 50%;*/
+     border-radius: 50%;*/
 width: 100%;
-margin-bottom: 10px;
+    margin: auto;
+    display: block
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
 }
 
 .bg2{
@@ -115,3 +117,45 @@ margin-bottom: 10px;
         
     background-color: #dedfd4;
 }   
+
+
+@media screen and (max-width:420px) {
+    .colmsContainer{
+
+    
+
+           display:block;
+           justify-content: unset;
+    padding: 0px 2%
+}
+
+.col1 {
+
+
+  
+
+    padding: 20px;
+    width:100%;
+display:block;
+
+ 
+    
+
+}
+.col2{
+
+
+  
+
+    padding: 20px;
+    width:100%;
+display:block;
+
+ 
+    
+
+}
+
+}
+
+

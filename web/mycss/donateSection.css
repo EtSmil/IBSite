@@ -37,7 +37,7 @@ and open the template in the editor.
     margin-bottom: 2px;
 }
 .mobilepay h3{
- font-size: 4.9rem;
+ font-size: 5.9rem;
  float:top;
  margin: 0px;
  color: #003755;
@@ -80,6 +80,70 @@ margin: 1px;
       z-index: 200;
   
   
+}
+
+
+
+
+/*Responsive */
+@media screen and (max-width:1423px) {
+.mobilepay h3{
+ font-size: 4.9rem;
+
+}
+  
+}
+@media screen and (max-width:1130px) {
+.mobilepay h3{
+ font-size: 3.9rem;
+
+}
+  
+}
+@media screen and (max-width:1130px) {
+.mobilepay h3{
+ font-size: 2.9rem;
+
+}
+  
+}
+@media screen and (max-width:734px) {
+.mobilepay h3{
+ font-size: 2.1rem;
+
+}
+  
+}
+
+
+@media screen and (max-width:420px) {
+    
+    .mobilepay, .bankTransfer{
+    
+    width:70%;
+    padding: 20px;
+        margin: auto;
+    float: unset;
+    display: inline-block;
+
+    margin-bottom: 6px;
+    color: #525252;
+      z-index: 200;
+  
+  
+}
+    .mobilepay h3{
+ font-size: 4rem;
+
+}
+  
+    
+    
+    
+    
+    
+    
+    
 }
 
 

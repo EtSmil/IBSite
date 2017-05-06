@@ -17,6 +17,38 @@ and open the template in the editor.
      z-index: 800;
     
 }
+
+.iconA { /*ul.topnav li.*/
+   position: relative;
+    top: 1px;
+    padding: 3px;
+ width: 200px;
+    float: left;
+   z-index: 90;
+left: -2px;
+    padding-left: 35px;
+  
+    background-color: white;
+
+
+     border-radius: 80%;
+
+  
+       position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+ 
+     z-index: 800;
+}
+
+
+.iconA img{/*ul.topnav li */
+
+
+    height: 100px;
+    width: 100px;
+
+     
+}
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -51,7 +83,62 @@ ul.topnav li a:hover {
 
 ul.topnav li.icon {display: none;}
 
-@media screen and (max-width:680px) {
+.menuHeader{
+    color: black;
+    
+    float: left;
+   z-index: 90;
+left: -2px;
+    padding-left: 35px;
+  
+    background-color: white;
+
+width: 90%;
+     border-radius: 80%;
+text-align: center;
+  
+       position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+ 
+     z-index: 800;
+display: none;}
+@media screen and (max-width:1071px) {
+.iconA { /*ul.topnav li.*/
+   position: relative;
+    top: -10px;
+    padding: 3px;
+ width: 180px;
+    float: left;
+   z-index: 90;
+left: -31px;
+    padding-left: 35px;
+  
+    background-color: white;
+
+
+     border-radius: 80%;
+
+  
+       position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+ 
+     z-index: 800;
+}
+    
+
+.iconA img{/*ul.topnav li */
+
+
+    height: 90px;
+    width: 90px;
+
+     
+}
+
+}
+
+
+@media screen and (max-width:741px) {
       ul.topnav li:not(:nth-child(7)) {display: none;}
      
   ul.topnav li.icon {
@@ -59,7 +146,7 @@ ul.topnav li.icon {display: none;}
     display: inline-block;
   }
 
-
+    .menuHeader{display:inline-block;}
 
 }
 

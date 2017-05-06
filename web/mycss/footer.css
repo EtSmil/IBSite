@@ -75,3 +75,62 @@ margin: 5px;
   
 width: 50%;
 }
+
+
+
+
+
+
+@media screen and (max-width:420px) {
+
+
+.ibLogoW img {
+   
+   width: 20%;
+    margin: auto;
+    
+}
+
+.footerSocialContainer{
+    
+       width: 100%;
+    margin: auto;
+    padding: 0px;
+  
+           margin-top: 30px;
+color: white;
+
+    
+}
+
+
+
+.ffacebook , .finstagram , .fyoutube , .femail {
+  
+      width: 15%;
+display: inline-block;
+margin: 5px;
+}
+
+
+.ffacebook img, .finstagram img, .fyoutube img, .femail img {
+  
+width: 50%;
+}
+.copyR{
+  
+      text-align: center;
+    width: 100%;
+
+      border-top:   1px solid white;
+     margin: auto;
+      font-size: 0.9rem;
+    
+margin-top: 20px;
+ 
+ 
+ 
+  
+}
+
+}

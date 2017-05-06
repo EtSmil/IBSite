@@ -103,3 +103,26 @@ box-shadow: 5px 5px 5px 5px  #888;
  text-align: left;
 font-size: 1.7rem;
 }
+
+@media screen and (max-width:420px) {
+
+.goalcol1, .goalcol2, .goalcol3 {
+
+    width:100%;
+    padding: 20px;
+    float: left;
+    display: inline-block;
+margin: auto;
+    margin-bottom: 6px;
+    color: #525252;
+      z-index: 200;
+}
+    .sectionContainer {
+           text-align: center;
+ 
+        
+    }    
+    
+
+
+}

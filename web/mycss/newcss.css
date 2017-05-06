@@ -10,10 +10,10 @@ and open the template in the editor.
 
  
 body {
-    background-image: url(img/bg-alter.jpg);
     color: #525252;
     font-family: "Roboto", sans-serif;
-
+width: 100%;
+    background-color: white;
     font-weight: 300;
     line-height: 2;
 }
@@ -32,7 +32,7 @@ html { font-size: 62.5%; }
 
    position: absolute; 
 
-   top: 15%;
+   top: 12%;
  /* left: 50%*/
    width: 100%; 
      text-align:  center;
@@ -43,12 +43,11 @@ html { font-size: 62.5%; }
 
 
 .groupPic img { 
- -webkit-filter: blur(4px);filter: blur(0.5px);
     width: 100%;
     height: auto;
 
 }
-.groupPicdiv img{
+.groupPicdiv img{/*arrow*/
     
     width: 70px;
  height: auto;
@@ -126,11 +125,6 @@ margin-bottom: 100px;
 
 }
 
-@media screen and (max-width:680px) {
-  
-  html { font-size: 54.5%; } 
-
-}
 @media screen and (max-width:1298px) {
   
   html { font-size: 58.5%; } 
@@ -420,43 +414,6 @@ width: 100%;
 
 
 
-.iconA { /*ul.topnav li.*/
-   position: relative;
-    top: 1px;
-    padding: 3px;
- width: 200px;
-    float: left;
-   z-index: 90;
-left: -2px;
-    padding-left: 35px;
-  
-    background-color: white;
-
-
-     border-radius: 80%;
-
-
-
-
-
-
-
-  
-       position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
- 
-     z-index: 800;
-}
-
-
-.iconA img{/*ul.topnav li */
-
-
-    height: 100px;
-    width: 100px;
-
-     
-}
 
 
 .beVolHeader{
@@ -466,9 +423,76 @@ margin-bottom: 10px;
     
 }
 
+@media screen and (max-width:1000px) {
+  
+.groupPicdiv{
 
-.dottedLine{
-    width: 80%;
-        border-top: 0.5rem dotted #525252;
-    margin: auto;
+   position: absolute; 
+
+   top: 11%;
+ /* left: 50%*/
+   width: 100%; 
+     text-align:  center;
+
 }
+
+
+.groupPicdiv img{
+    
+    width: 50px;
+ height: auto;
+ 
+animation: spinning-logocat 5s infinite;
+
+}
+    
+    
+}
+
+
+
+
+@media screen and (max-width:420px) {
+
+.sectionTitle{
+    
+       
+        font-size: 4rem;
+            font-weight: 700;
+
+
+
+}
+    
+    
+    
+.videoBox{
+    
+    width: 100%;
+  margin: 10px;
+        display: inline-block;
+                 
+
+}
+
+
+.videoBoxContainer{
+    width: 82%;
+    margin: auto;
+    
+       display: block;
+           justify-content: unset;
+           margin-top: 50px;
+
+           
+           
+           
+}
+
+
+    
+    
+    
+}
+
+
