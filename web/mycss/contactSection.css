@@ -291,4 +291,56 @@ margin-bottom: 5px;
 }
 
 
+@media screen and (max-width:770px) {
+    
+.emailLogo{
+    
+    
+    width: 79%;
+    }
+.formStyle{
+    width: 85%;
+    padding: 10px;
+
+
+
+
+    }
+
+
+.contactSection{
+    
+    background-color:white;;
+margin: 0px;
+    width: 100%;
+    
+        padding: 0px;
+        padding-top: 0px;
+        padding-bottom: 10px;;
+
+     
+    
+}
+    
+    .iconContainer{
+    width: 90%;
+    margin: auto;
+           margin-top: 40px;
+color: white;
+        padding: 0px 100px;
+}
+    
+        .facebook img, .instagram img, .youtube img, .email img {
+  
+      width: 8rem;
+    height: auto;
+margin-bottom: 5px;
+
+  margin-top:  5px;
+
+	display: block;
+}
+    
+}
+
 

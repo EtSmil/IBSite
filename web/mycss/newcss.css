@@ -494,5 +494,15 @@ animation: spinning-logocat 5s infinite;
     
     
 }
+@media screen and (max-width:770px) {
+
+.videoBox h4{
+        text-align: center;
+   font-size: 2rem;
+   padding: 0px 10px;
+    background-color:white;
+
+}
 
 
+}

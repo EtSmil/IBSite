@@ -134,3 +134,25 @@ margin-top: 20px;
 }
 
 }
+
+@media screen and (max-width:770px) {
+
+
+
+
+.ffacebook , .finstagram , .fyoutube , .femail {
+  
+      width: 15%;
+display: inline-block;
+margin: 5px;
+}
+
+
+.ffacebook img, .finstagram img, .fyoutube img, .femail img {
+  
+width: 70%;
+}
+
+
+
+}
