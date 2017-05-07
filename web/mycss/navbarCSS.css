@@ -145,12 +145,16 @@ left: -31px;
     float: right;
     display: inline-block;
   }
-
+    ul.topnav li{    float: left;
+    display: inline-block;}
     .menuHeader{display:inline-block;}
 
 }
+    
 
 @media screen and (max-width:680px) {
+    
+
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
@@ -175,7 +179,6 @@ left: -31px;
 }
 
 .active {
-        border:  3px solid yellowgreen; 
 
 }
 
@@ -187,6 +190,22 @@ ul.topnav li a:hover {
 -o-transform: scale(1, 1);
  }
   
+.iconA, .iconA img{
+       width: 0px;
+    height: 0px;
+    
+        
+        display: none;
+    }
+
+    
+    
+      ul.topnav li.topMob{display: inline-block;
+    float: left;
+    left: 0px
+    }
+    
+    
 }
 
 
