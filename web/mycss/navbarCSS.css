@@ -102,6 +102,7 @@ text-align: center;
  
      z-index: 800;
 display: none;}
+    .toTop{display: none;}
 @media screen and (max-width:1071px) {
 .iconA { /*ul.topnav li.*/
    position: relative;
@@ -148,6 +149,8 @@ left: -31px;
     ul.topnav li{    float: left;
     display: inline-block;}
     .menuHeader{display:inline-block;}
+
+
 
 }
     

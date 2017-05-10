@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : 17-04-2017, 10:59:48
     Author     : Alkhozai
 */
-.maybeFooter{
+.footer{
     
     width: 100%;
     height: auto;
@@ -25,10 +25,10 @@ justify-content: space-between;
    
           text-align: center;
      display: inline-block;
-     
+     color: white;
   
 }
-.maybeFooter h1{
+.footer h1{
     
     color: white;
     text-align: center;
