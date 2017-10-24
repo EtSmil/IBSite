@@ -399,7 +399,9 @@ width: 100%;
 
 }
 
-
+    .groupMobile{
+        display: none;
+    }
 
 
 
@@ -478,8 +480,7 @@ animation: spinning-logocat 5s infinite;
 }
 
 
-    
-    
+
     
 }
 @media screen and (max-width:770px) {
@@ -492,6 +493,13 @@ animation: spinning-logocat 5s infinite;
 
 }
     .flipAnimation{
+        display: none;
+    }
+    
+    .groupMobile{
+        display: block;
+    }
+    .groupDesktop{
         display: none;
     }
 

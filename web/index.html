@@ -13,7 +13,7 @@ and open the template in the editor.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>IRAQ Builders - DK</title>
-    
+    <meta name="description" content="Iraq Builders er en humanitær organisation. Vores primære opgave er at hjælpe fattige familier og forældreløse børn i Irak. ">
 
               <link rel="icon" href="img/logoPageIcon.gif" >
 
@@ -23,6 +23,8 @@ and open the template in the editor.
   
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.0.3/js/vendor/jquery.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
 
 
 <link rel="stylesheet" type="text/css" href="YouTubePopUp/YouTubePopUp.css">
@@ -43,11 +45,22 @@ and open the template in the editor.
         <link href="mycss/contactSection.css" rel="stylesheet" type="text/css"/>
         <link href="mycss/beVolunteer.css" rel="stylesheet" type="text/css"/>
         <link href="mycss/footer.css" rel="stylesheet" type="text/css"/>
+        <link href="mycss/animations.css" rel="stylesheet" type="text/css"/>
+
         
 
       <link href="mycss/newcss.css" rel="stylesheet" type="text/css"/>
 <script src="jquery-3.1.1.min.js"></script>
+<script> <!-- google analytics-->
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-99013342-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
     </head>
     <body>
         
@@ -55,9 +68,8 @@ and open the template in the editor.
         
         <div class="navDiv">
         <ul class="topnav" id="myTopnav">
-                    <li class="toTop"><a class="toscroll" href="#top" onclick="myFunction()">Top</a></li>
+                    <li class="toTop"><a class="toscroll" href="#top" onclick="myFunction()">Gå op</a></li>
 
-        <li><a class="toscroll" href="#beVol"  onclick="myFunction()">Bliv frivillig</a></li>
   <li><a class="toscroll" href="#contact"  onclick="myFunction()">Kontakt os</a></li>
   <li><a class="toscroll" href="#donate"  onclick="myFunction()">Doner</a></li>
 
@@ -66,7 +78,8 @@ and open the template in the editor.
     
   <li><a class="active toscroll" href="#who"  onclick="myFunction()">Om os</a></li>
             
-  <li class="iconA"><a  class="toscroll" href="#top"  onclick="myFunction()">  <img src="img/logoKvad.png" alt=""/> </a></li>   
+  <li class="iconA"><a  class="toscroll" href="#top"  onclick="myFunction()">  
+      <img class="floating1" src="img/logoKvad.png" alt="IRAQ Builders logo"/> </a></li>   
   
   <li class="icon">
     <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
@@ -80,8 +93,12 @@ and open the template in the editor.
         
         
         <div class="groupPic">
-        <img src="img/groupPic2.jpg" alt="" class="groupPic "/>
-        <div class="groupPicdiv headerT">
+            
+            
+           <img src="img/groupPic2.jpg" alt="Iraq builders - dk" class="groupPic"/>
+
+            
+        <div class="groupPicdiv headerT slideDown" >
             
    
            
@@ -102,15 +119,15 @@ and open the template in the editor.
         </div>
 
 <div class="whoSection" id="who" >
-            <h1 class="sectionTitle whoHeader">Hvem er IRAQ Builders?</h1>
+            <h1 class="sectionTitle whoHeader fadeinAnimation" id="whoHeader" >Hvem er IRAQ Builders?</h1>
 
        <div class="colmsContainer"  >
     
-        <div class="col1">
+        <div class="col1" >
           
                 
-                 <h1> Hvem er vi?</h1>
-        <p>
+                 <h1  class="fadeinAnimation" id="whoSubheader"> Hvem er vi?</h1>
+        <p  class="fadeinAnimation" id="whoText">
 IRAQ Builders består af en gruppe unge initiativtagere i Irak, der sammen med deres ligesindede i andre lande har skabt en international organisation, der sigter efter et bedre Irak med en lysere fremtid. 
 
 De frivillige har til formål at beskytte liv, sørge for helbred og sikre respekt for mennesket i Irak. De forsørger nationalt (i Irak) at forhindre og lindre menneskelig lidelse primært gennem genopbygning af ruinerede huse som følge af krig og de daglige destruktive overfald på mennesket. 
@@ -120,14 +137,14 @@ IRAQ Builders er en ikke-statslig organisation, og vi repræsenterer ikke en bes
 IRAQ Builders yder hjælp og støtte til alle irakere, uden hensyn til deres religiøse-, politiske- og racemæssige tilhørsforhold. 
         
     </p>
-              <img src="img/genopbygningW2.jpg" alt=""/>
+              <img src="img/genopbygningW2.jpg" alt="iraq builders"/>
     </div>
     
         <div class="col2">
-                                           <h1> IRAQ Builders <br> i Danmark</h1>
+                                           <h1 class="fadeinAnimation" id="whoHeader"> IRAQ Builders i Danmark</h1>
 
 
-                <p> 
+                <p  class="fadeinAnimation"> 
 
 IRAQ Builders Danmark består af en gruppe unge frivillige, der med inspiration fra hovedorganisationen i Irak, forsøger at bidrage med økonomiske midler, samling af tøj, formidling af viden etc. Dette forsøges opnået gennem samarbejde med andre frivillige og donorer. Vores ypperste opgave er at sikre at de ressourcer der gives til de nødslidte, bliver brugt så optimalt som muligt.
 Gruppen består hovedsageligt af akademikere med irakisk baggrund, men alle er velkomne til at slutte sig til gruppen. 
@@ -135,7 +152,7 @@ Vores vigtigste princip er at alle de projekter vi deltager i skal kunne gennemf
 IRAQ Builders Danmarks døre er åbne for alle, og vi byder gerne nye frivillige ind i gruppen. 
 </p>
             
-                           <img  src="img/ibdk1.jpg" alt=""/>
+                           <img  src="img/ibdk1.jpg" alt="iraq builders danmark"/>
   
             
         </div>
@@ -164,23 +181,23 @@ video section
 <div class="videoSOuter">
  
  
-            <h1 class="sectionTitle">Vores historie.. </h1>
+            <h1 class="sectionTitle fadeinAnimation">Vores historie.. </h1>
         
         
 
     
     
     <div class="videoBoxContainer">
-    <div class="videoBox"  id="carImg">
+    <div class="videoBox slideRightAnimation"  > 
       
-            <img class="videoBackground " src="img/videoBackground.png" alt=""/>
+            <img class="videoBackground " src="img/videoBackground.png" alt="iraq builders"/>
                         <a class="bla-1" href="https://youtu.be/hnP32mn44aQ">  <img id="playBtn1" class="icon-play" src="img/icon-play1.png" alt=""/> </a>  
                         <h4>Hvem er IRAQ Builders? </h4>
     </div>
     
-   <div class="videoBox" >
+   <div class="videoBox slideLeftAnimation">
       
-            <img class="videoBackground " src="img/videoBackground1.png" alt=""/>
+            <img class="videoBackground " src="img/videoBackground1.png" alt="iraq builders"/>
                         <a class="bla-1" href="https://youtu.be/8eQ3Ak58XYs">  <img id="playBtn1" class="icon-play" src="img/icon-play1.png" alt=""/> </a>  
 <h4>IRAQ Builders' arbejde og de frivillige bag det </h4>
     </div>
@@ -200,7 +217,7 @@ video section
 
 
 <div id="goals" class="goalsSection whiteBG" >
-  <h1 class="sectionTitle">Vores Mål</h1>
+  <h1 class="sectionTitle fadeinAnimation">Vores Mål</h1>
 
    <!--
     <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
@@ -216,10 +233,10 @@ video section
 
       <div  class="sectionContainer">
           
-          <div class="goalcolHover goalcol1">
+          <div class="goalcolHover goalcol1" >
               
               
-              <img src="img/ashti.jpg" alt=""/>
+              <img src="img/ashti.jpg" alt="iraq builders"/>
                 <p> 
 
 
@@ -229,7 +246,7 @@ At hjælpe mindrebemidlede irakiske familier; især familier, der mangler forsø
          
                 <div class="goalcolHover goalcol2">
         
-              <img src="img/goals/goal2.jpg"  alt=""/>
+              <img src="img/goals/goal2.jpg"  alt="iraq builders"/>
                 <p> 
 
 
@@ -238,7 +255,7 @@ Renovering og vedligeholdelse af disse familiers boliger; alt sammen gennem inds
         </div> 
          
                 <div class="goalcolHover goalcol3">
-                    <img src="img/skoleartikler.jpg" alt=""/>
+                    <img src="img/skoleartikler.jpg" alt="iraq builders"/>
                 <p> 
 
 
@@ -249,7 +266,7 @@ At hjælpe forældreløse børn; give dem et normalt socialt miljø og bryde den
   
        <div class="goalcol1 goalcolHover">
         
-              <img src="img/goals/15107322_727356684099210_8952351770995521420_n.jpg" alt=""/>
+              <img src="img/goals/15107322_727356684099210_8952351770995521420_n.jpg" alt="iraq builders"/>
                 <p> 
 
 At sørge for jobs til de forsørgende i disse familier. Dette gøres ved at give dem en sum penge, hvilket kan bruges til at åbne en selvstændig virksomhed, der genererer nok profit til at opfylde deres basale behov. 
@@ -259,7 +276,7 @@ At sørge for jobs til de forsørgende i disse familier. Dette gøres ved at giv
     
             <div class="goalcol2 goalcolHover">
         
-              <img  src="img/goals/goal3.jpg" alt=""/>
+              <img  src="img/goals/goal3.jpg" alt="iraq builders"/>
                 <p> 
 
 
@@ -270,7 +287,7 @@ Sprede idéen om velgørenhed og frivilligt arbejde blandt de unge irakere og mo
               <div class="goalcol3 goalcolHover">
         
          
-              <img src="img/varmkaerlighed.jpg" alt=""/>
+              <img src="img/varmkaerlighed.jpg" alt="iraq builders"/>
                 <p> 
 
 
@@ -286,26 +303,26 @@ doner
 -->
 <div id="donate" class="donate section">
     
-   <h1 class="sectionTitle">Støtt nu</h1>
-    <div class="mobilepay">
+   <h1 class="sectionTitle fadeinAnimation">Støtt nu</h1>
+    <div class="mobilepay slideRightAnimation">
        <img src="img/MobilePay_Logo2.png" alt=""/>
-       <h3>28 82 86 64</h3>
+       <h3>*</h3>
     </div>    
     
-     <div class="bankTransfer">
-            <img src="img/payment-method.png" alt=""/>
+     <div class="bankTransfer slideLeftAnimation">
+            <img src="img/payment-method.png" alt="iraq builders"/>
             
             <h1>Bankoverføresel</h1>
             
-            <h3>Reg.: 3098</h3>
-            <h3>Konto: 3098670181</h3>
+            <h3>Reg.: *</h3>
+            <h3>Konto: *</h3>
     </div>  
 </div>
 
 
 <div id="contact" class="contactSection">
 
-            <h2 class="contactHeader" >Kontakt os</h2>
+            <h2 class="contactHeader fadeinAnimation" >Kontakt os</h2>
 
  
 
@@ -313,7 +330,7 @@ doner
 
 
 
-                 <div class="emailLogo">
+                 <div class="emailLogo fadeinAnimation">
 
             <a href="mailto:iraqbuildersdk@hotmail.dk" target="_blank">
                       <img src="img/icons/social1/email.png" alt=""/>
@@ -376,15 +393,15 @@ doner
 
  
 </div>
-
+<!--
 
 <div id="beVol" class="beVol">
     
-   <h1  class="sectionTitle beVolHeader">Bliv frivillig</h1>
+   <h1  class="sectionTitle beVolHeader fadeinAnimation">Bliv frivillig</h1>
     
    
-   <h1 class='beVolSubtitle'>Er du vores nye frivillig hos IRAQ Builders DK?</h1>
-   <p class="beVolText"> <br>
+   <h1 class='beVolSubtitle fadeinAnimation'>Er du vores nye frivillig hos IRAQ Builders DK?</h1>
+   <p class="beVolText fadeinAnimation"> <br>
 Brænder du for at gøre en forskel, hvor der er mest brug for hjælp og støtte til den mindre priviligerede befolkningsgruppe i Irak ? Så har du chancen for at hjælpe os med at hjælpe dem. Vi åbner dørene op for alle som er interesserede i at udføre frivilligt velgørenhedsarbejde i foreningen, i forbindelse med kommende arrangementer hos den danske afdeling af Iraq Builders, hvor vi primært arbejder fra København.
 </p>
           
@@ -438,7 +455,7 @@ Vi forventer kun at du er ærlig med dig selv omkring dit overskud og engagement
    
   
     
-</div>
+</div> -->
 
 
 <div class="footer">
@@ -493,6 +510,7 @@ Vi forventer kun at du er ærlig med dig selv omkring dit overskud og engagement
 
 <script src="scripts/playVideoScript.js" type="text/javascript"></script>
 <script src="scripts/navbar.js" type="text/javascript"></script>
+<script src="scripts/animations.js" type="text/javascript"></script>
 
 
 
@@ -516,7 +534,10 @@ $("a.toscroll").on('click',function(e) {
 
 </script>
 
+
 <script src="scripts/contact.js" type="text/javascript"></script>
+      
+    
     </body>
 </html>
 
